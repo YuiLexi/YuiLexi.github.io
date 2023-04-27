@@ -1,0 +1,5 @@
+
+/* 首页的文章封面图片大小调整，去/css/mycss.css中的第六行进行修改，在此修改不起作用 */
+.layout #recent-posts>.recent-post-item .post_cover {
+    height: 200px;
+}

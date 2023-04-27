@@ -1,13 +1,13 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>C#基础知识 | 🪐星空鸟🪐</title><meta name="author" content="YuiLexi"><meta name="copyright" content="YuiLexi"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="一、认识 C1.1 什么是 .NET？.NET 是由 Microsoft 创建的开源开发人员平台，用于生成许多不同类型的应用程序。使用 .NET，可以使用多种语言、编辑器和库来构建 Web、移动、桌面、游戏和 IoT 等。.NET 文档 | Microsoft Learn。  编程语言   ​    可以使用 C#、F# 或 Visual Basic 编写 .NET 应用。了解.NET 编程语言。">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>C#基础知识 | 🪐星空鸟🪐</title><meta name="author" content="YuiLexi"><meta name="copyright" content="YuiLexi"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="C#基础知识，涵盖了注释、变量类型、基础数据类型、运算符、流程控制语句、复杂数据类型、方法、面向对象程序设计">
 <meta property="og:type" content="article">
 <meta property="og:title" content="C#基础知识">
 <meta property="og:url" content="http://starryskybird.yuilexi.cn/2023/04/26/Csharp%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/index.html">
 <meta property="og:site_name" content="🪐星空鸟🪐">
-<meta property="og:description" content="一、认识 C1.1 什么是 .NET？.NET 是由 Microsoft 创建的开源开发人员平台，用于生成许多不同类型的应用程序。使用 .NET，可以使用多种语言、编辑器和库来构建 Web、移动、桌面、游戏和 IoT 等。.NET 文档 | Microsoft Learn。  编程语言   ​    可以使用 C#、F# 或 Visual Basic 编写 .NET 应用。了解.NET 编程语言。">
+<meta property="og:description" content="C#基础知识，涵盖了注释、变量类型、基础数据类型、运算符、流程控制语句、复杂数据类型、方法、面向对象程序设计">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://imageshack.yuilexi.cn/starryskybird/cover-img-5.png">
+<meta property="og:image" content="https://imageshack.yuilexi.cn/starryskybird/cover-img-8.png">
 <meta property="article:published_time" content="2023-04-25T16:00:00.000Z">
-<meta property="article:modified_time" content="2023-04-27T13:18:53.827Z">
+<meta property="article:modified_time" content="2023-04-27T14:50:32.436Z">
 <meta property="article:author" content="YuiLexi">
 <meta property="article:tag" content="教程">
 <meta property="article:tag" content="C#">
@@ -15,7 +15,7 @@
 <meta property="article:tag" content=".NET">
 <meta property="article:tag" content="Unity">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://imageshack.yuilexi.cn/starryskybird/cover-img-5.png"><link rel="shortcut icon" href="/img/logo.png"><link rel="canonical" href="http://starryskybird.yuilexi.cn/2023/04/26/Csharp%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+<meta name="twitter:image" content="https://imageshack.yuilexi.cn/starryskybird/cover-img-8.png"><link rel="shortcut icon" href="/img/logo.png"><link rel="canonical" href="http://starryskybird.yuilexi.cn/2023/04/26/Csharp%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
   root: '/',
   algolia: undefined,
   localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"找不到您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
@@ -61,7 +61,7 @@
   isHome: false,
   isHighlightShrink: false,
   isToc: true,
-  postUpdate: '2023-04-27 21:18:53'
+  postUpdate: '2023-04-27 22:50:32'
 }</script><noscript><style type="text/css">
   #nav {
     opacity: 1
@@ -165,10 +165,10 @@
       }
     }
     detectApple()
-    })(window)</script><link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="/css/mycss.css"><link rel="stylesheet" href="/css/mouse.css"><script src="/live2d-widget/autoload.js"></script><link rel="stylesheet" href="/css/progress_bar.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="/css/cat.css"><span id="fps"></span><link rel="stylesheet" href="https://cdn1.tianli0.top/npm/element-ui@2.15.6/packages/theme-chalk/lib/index.css"><div id="myscoll"></div><svg aria-hidden="true" style="position:absolute; overflow:hidden; width:0; height:0"><symbol id="icon-sun" viewBox="0 0 1024 1024"><path d="M960 512l-128 128v192h-192l-128 128-128-128H192v-192l-128-128 128-128V192h192l128-128 128 128h192v192z" fill="#FFD878" p-id="8420"></path><path d="M736 512a224 224 0 1 0-448 0 224 224 0 1 0 448 0z" fill="#FFE4A9" p-id="8421"></path><path d="M512 109.248L626.752 224H800v173.248L914.752 512 800 626.752V800h-173.248L512 914.752 397.248 800H224v-173.248L109.248 512 224 397.248V224h173.248L512 109.248M512 64l-128 128H192v192l-128 128 128 128v192h192l128 128 128-128h192v-192l128-128-128-128V192h-192l-128-128z" fill="#4D5152" p-id="8422"></path><path d="M512 320c105.888 0 192 86.112 192 192s-86.112 192-192 192-192-86.112-192-192 86.112-192 192-192m0-32a224 224 0 1 0 0 448 224 224 0 0 0 0-448z" fill="#4D5152" p-id="8423"></path></symbol><symbol id="icon-moon" viewBox="0 0 1024 1024"><path d="M611.370667 167.082667a445.013333 445.013333 0 0 1-38.4 161.834666 477.824 477.824 0 0 1-244.736 244.394667 445.141333 445.141333 0 0 1-161.109334 38.058667 85.077333 85.077333 0 0 0-65.066666 135.722666A462.08 462.08 0 1 0 747.093333 102.058667a85.077333 85.077333 0 0 0-135.722666 65.024z" fill="#FFB531" p-id="11345"></path><path d="M329.728 274.133333l35.157333-35.157333a21.333333 21.333333 0 1 0-30.165333-30.165333l-35.157333 35.157333-35.114667-35.157333a21.333333 21.333333 0 0 0-30.165333 30.165333l35.114666 35.157333-35.114666 35.157334a21.333333 21.333333 0 1 0 30.165333 30.165333l35.114667-35.157333 35.157333 35.157333a21.333333 21.333333 0 1 0 30.165333-30.165333z" fill="#030835" p-id="11346"></path></symbol></svg><!-- hexo injector head_end start --><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Zfour/Butterfly-double-row-display@1.00/cardlistpost.min.css"/>
+    })(window)</script><link rel="stylesheet" href="/css/personal.css"><link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="/css/mycss.css"><link rel="stylesheet" href="/css/mouse.css"><script src="/live2d-widget/autoload.js"></script><link rel="stylesheet" href="/css/progress_bar.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="/css/cat.css"><span id="fps"></span><link rel="stylesheet" href="https://cdn1.tianli0.top/npm/element-ui@2.15.6/packages/theme-chalk/lib/index.css"><div id="myscoll"></div><svg aria-hidden="true" style="position:absolute; overflow:hidden; width:0; height:0"><symbol id="icon-sun" viewBox="0 0 1024 1024"><path d="M960 512l-128 128v192h-192l-128 128-128-128H192v-192l-128-128 128-128V192h192l128-128 128 128h192v192z" fill="#FFD878" p-id="8420"></path><path d="M736 512a224 224 0 1 0-448 0 224 224 0 1 0 448 0z" fill="#FFE4A9" p-id="8421"></path><path d="M512 109.248L626.752 224H800v173.248L914.752 512 800 626.752V800h-173.248L512 914.752 397.248 800H224v-173.248L109.248 512 224 397.248V224h173.248L512 109.248M512 64l-128 128H192v192l-128 128 128 128v192h192l128 128 128-128h192v-192l128-128-128-128V192h-192l-128-128z" fill="#4D5152" p-id="8422"></path><path d="M512 320c105.888 0 192 86.112 192 192s-86.112 192-192 192-192-86.112-192-192 86.112-192 192-192m0-32a224 224 0 1 0 0 448 224 224 0 0 0 0-448z" fill="#4D5152" p-id="8423"></path></symbol><symbol id="icon-moon" viewBox="0 0 1024 1024"><path d="M611.370667 167.082667a445.013333 445.013333 0 0 1-38.4 161.834666 477.824 477.824 0 0 1-244.736 244.394667 445.141333 445.141333 0 0 1-161.109334 38.058667 85.077333 85.077333 0 0 0-65.066666 135.722666A462.08 462.08 0 1 0 747.093333 102.058667a85.077333 85.077333 0 0 0-135.722666 65.024z" fill="#FFB531" p-id="11345"></path><path d="M329.728 274.133333l35.157333-35.157333a21.333333 21.333333 0 1 0-30.165333-30.165333l-35.157333 35.157333-35.114667-35.157333a21.333333 21.333333 0 0 0-30.165333 30.165333l35.114666 35.157333-35.114666 35.157334a21.333333 21.333333 0 1 0 30.165333 30.165333l35.114667-35.157333 35.157333 35.157333a21.333333 21.333333 0 1 0 30.165333-30.165333z" fill="#030835" p-id="11346"></path></symbol></svg><!-- hexo injector head_end start --><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Zfour/Butterfly-double-row-display@1.00/cardlistpost.min.css"/>
 <style>#recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap > .tags:before {content:"\A";
   white-space: pre;}#recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap > .tags > .article-meta__separator{display:none}</style>
-<link rel="stylesheet" href="/css/clock.min.css" /><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-footer-beautify@1.0.0/lib/runtime.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiperstyle.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css" media="defer" onload="this.media='all'"><script src="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js"></script><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/animate.min.css" media="print" onload="this.media='screen'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-filter-gitcalendar/lib/gitcalendar.css" media="print" onload="this.media='all'"><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"></head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><script>const preloader = {
+<link rel="stylesheet" href="/css/clock.min.css" /><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-footer-beautify@1.0.0/lib/runtime.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiperstyle.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/animate.min.css" media="print" onload="this.media='screen'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css" media="defer" onload="this.media='all'"><script src="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js"></script><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-filter-gitcalendar/lib/gitcalendar.css" media="print" onload="this.media='all'"><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"></head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><script>const preloader = {
   endLoading: () => {
     document.body.style.overflow = '';
     document.getElementById('loading-box').classList.add("loaded")
@@ -185,7 +185,7 @@ window.addEventListener('load',()=> { preloader.endLoading() })
 if (false) {
   document.addEventListener('pjax:send', () => { preloader.initLoading() })
   document.addEventListener('pjax:complete', () => { preloader.endLoading() })
-}</script><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/headimage.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">2</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">8</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">2</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 清单</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/photo/"><i class="fa-fw fas fa-camera"></i><span> 照片</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/comments/"><i class="fa-fw fas fa-comment"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://imageshack.yuilexi.cn/starryskybird/cover-img-5.png')"><nav id="nav"><span id="blog-info"><a href="/" title="🪐星空鸟🪐"><span class="site-name">🪐星空鸟🪐</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><!--是否显示走索按钮的文字描述--></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 清单</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/photo/"><i class="fa-fw fas fa-camera"></i><span> 照片</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/comments/"><i class="fa-fw fas fa-comment"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">C#基础知识</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-04-25T16:00:00.000Z" title="发表于 2023-04-26 00:00:00">2023-04-26</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-04-27T13:18:53.827Z" title="更新于 2023-04-27 21:18:53">2023-04-27</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/">程序设计</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">1.7k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>5分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="C#基础知识"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="一、认识-C"><a href="#一、认识-C" class="headerlink" title="一、认识 C"></a>一、认识 C</h1><h2 id="1-1-什么是-NET？"><a href="#1-1-什么是-NET？" class="headerlink" title="1.1 什么是 .NET？"></a>1.1 什么是 .NET？</h2><p>.NET 是由 Microsoft 创建的开源开发人员平台，用于生成许多不同类型的应用程序。使用 .NET，可以使用多种语言、编辑器和库来构建 Web、移动、桌面、游戏和 IoT 等。<a target="_blank" rel="noopener" href="https://learn.microsoft.com/zh-cn/dotnet/">.NET 文档 | Microsoft Learn</a>。</p>
+}</script><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/headimage.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">2</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">8</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">2</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 清单</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/photo/"><i class="fa-fw fas fa-camera"></i><span> 照片</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/comments/"><i class="fa-fw fas fa-comment"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://imageshack.yuilexi.cn/starryskybird/cover-img-8.png')"><nav id="nav"><span id="blog-info"><a href="/" title="🪐星空鸟🪐"><span class="site-name">🪐星空鸟🪐</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><!--是否显示走索按钮的文字描述--></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 清单</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/photo/"><i class="fa-fw fas fa-camera"></i><span> 照片</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/comments/"><i class="fa-fw fas fa-comment"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">C#基础知识</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-04-25T16:00:00.000Z" title="发表于 2023-04-26 00:00:00">2023-04-26</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-04-27T14:50:32.436Z" title="更新于 2023-04-27 22:50:32">2023-04-27</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/">程序设计</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">5.2k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>18分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="C#基础知识"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="一、认识-C"><a href="#一、认识-C" class="headerlink" title="一、认识 C"></a>一、认识 C</h1><h2 id="1-1-什么是-NET？"><a href="#1-1-什么是-NET？" class="headerlink" title="1.1 什么是 .NET？"></a>1.1 什么是 .NET？</h2><p>.NET 是由 Microsoft 创建的开源开发人员平台，用于生成许多不同类型的应用程序。使用 .NET，可以使用多种语言、编辑器和库来构建 Web、移动、桌面、游戏和 IoT 等。<a target="_blank" rel="noopener" href="https://learn.microsoft.com/zh-cn/dotnet/">.NET 文档 | Microsoft Learn</a>。</p>
 <ul>
 <li><p>编程语言</p>
 <p>  ​    可以使用 C#、F# 或 Visual Basic 编写 .NET 应用。<a target="_blank" rel="noopener" href="https://dotnet.microsoft.com/zh-cn/languages">了解.NET 编程语言</a>。</p>
@@ -393,10 +393,500 @@ if (false) {
 </li>
 <li><p>动态（Dynamic）类型</p>
 <p>  ​    任何类型的值可以存储在动态数据类型变量中。这些变量的类型检查是在运行时发生的。声明动态类型的语法：</p>
-  <figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">dynamic</span> &lt;variable_name&gt; = <span class="keyword">value</span>;</span><br><span class="line"></span><br><span class="line"><span class="built_in">dynamic</span> d = <span class="number">20</span>;</span><br></pre></td></tr></table></figure>
+  <figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//dynamic &lt;variable_name&gt; = value;</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">dynamic</span> d = <span class="number">20</span>;</span><br></pre></td></tr></table></figure>
+<p>  ​    </p>
+</li>
+<li><p>字符串（String）类型</p>
+<p>​    <strong>字符串（String）类型</strong>：允许您给变量分配任何字符串值。字符串（String）类型是 System.String 类的别名。它是从对象（Object）类型派生的。</p>
 </li>
 </ul>
-</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="http://starryskybird.yuilexi.cn">YuiLexi</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://starryskybird.yuilexi.cn/2023/04/26/Csharp%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/">http://starryskybird.yuilexi.cn/2023/04/26/Csharp%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://starryskybird.yuilexi.cn" target="_blank">🪐星空鸟🪐</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E6%95%99%E7%A8%8B/">教程</a><a class="post-meta__tags" href="/tags/C/">C#</a><a class="post-meta__tags" href="/tags/%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/">程序设计</a><a class="post-meta__tags" href="/tags/NET/">.NET</a><a class="post-meta__tags" href="/tags/Unity/">Unity</a></div><div class="post_share"><div class="social-share" data-image="https://imageshack.yuilexi.cn/starryskybird/cover-img-5.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/2023/04/26/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84C%E8%AF%AD%E8%A8%80%E7%89%88/" title="数据结构C语言版"><img class="cover" src="https://imageshack.yuilexi.cn/starryskybird/cover-img-9.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2023-04-26</div><div class="title">数据结构C语言版</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E8%AE%A4%E8%AF%86-C"><span class="toc-text">一、认识 C</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-1-%E4%BB%80%E4%B9%88%E6%98%AF-NET%EF%BC%9F"><span class="toc-text">1.1 什么是 .NET？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-2-%E4%BB%80%E4%B9%88%E6%98%AF-C-%EF%BC%9F"><span class="toc-text">1.2 什么是 C#？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-3-NET%E4%B8%A4%E7%A7%8D%E4%BA%A4%E4%BA%92%E6%A8%A1%E5%BC%8F"><span class="toc-text">1.3 .NET两种交互模式</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-4-%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7"><span class="toc-text">1.4 开发工具</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BA%8C%E3%80%81C-%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80"><span class="toc-text">二、C#语法基础</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#2-1-C-%E7%A8%8B%E5%BA%8F%E4%B8%80%E8%88%AC%E7%BB%93%E6%9E%84"><span class="toc-text">2.1 C#程序一般结构</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-2-%E6%B3%A8%E9%87%8A"><span class="toc-text">2.2 注释</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-3-%E5%9F%BA%E6%9C%AC%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B"><span class="toc-text">2.3 基本数据类型</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#2-3-1-%E5%80%BC%E7%B1%BB%E5%9E%8B"><span class="toc-text">2.3.1 值类型</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-3-1-%E5%BC%95%E7%94%A8%E7%B1%BB%E5%9E%8B"><span class="toc-text">2.3.1 引用类型</span></a></li></ol></li></ol></li></ol></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2023 By YuiLexi</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><a class="icon-V hidden" onclick="switchNightMode()" title="浅色和深色模式转换"><svg width="25" height="25" viewBox="0 0 1024 1024"><use id="modeicon" xlink:href="#icon-moon"></use></svg></a><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><script defer src="/js/light.js"></script><canvas id="universe"></canvas><script defer src="/js/universe.js"></script><script async src="//npm.elemecdn.com/pace-js@1.2.4/pace.min.js"></script><script defer src="https://npm.elemecdn.com/jquery@latest/dist/jquery.min.js"></script><script defer data-pjax src="/js/cat.js"></script><script async src="/js/fps.js"></script><script src="/js/sun_moon.js" async></script><script async src="https://cdn1.tianli0.top/npm/vue@2.6.14/dist/vue.min.js"></script><script async src="https://cdn1.tianli0.top/npm/element-ui@2.15.6/lib/index.js"></script><script id="canvas_nest" defer="defer" color="0,0,255" opacity="0.7" zIndex="-1" count="99" mobile="false" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/canvas-nest.min.js"></script><script id="click-heart" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/click-heart.min.js" async="async" mobile="false"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div class="no-result" id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></div><!-- hexo injector body_end start --> <script data-pjax>if(document.getElementById('recent-posts') && (location.pathname ==='/'|| '/' ==='all')){
+<h3 id="2-3-3-指针类型"><a href="#2-3-3-指针类型" class="headerlink" title="2.3.3 指针类型"></a>2.3.3 指针类型</h3><p>指针类型变量存储另一种类型的内存地址。C# 中的指针与 C 或 C++ 中的指针有相同的功能。声明指针类型的语法：</p>
+<figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">type* name;</span><br><span class="line"><span class="comment">//例如：</span></span><br><span class="line"><span class="built_in">char</span>* cp;</span><br><span class="line"><span class="built_in">int</span>* ip;</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>指针具体的使用，请参照<a href="">不安全代码</a></p>
+</blockquote>
+<h3 id="2-3-4-数据类型的转换"><a href="#2-3-4-数据类型的转换" class="headerlink" title="2.3.4 数据类型的转换"></a>2.3.4 数据类型的转换</h3><p>数据类型的转换有两种：<strong>隐式类型转换</strong>和<strong>显式类型转换</strong>。前者是自动进行，而后者是强制进行。</p>
+<ul>
+<li><p>隐式类型转换</p>
+<p>  ​    需要满足的条件是：两种兼容类型；目标类型等级高于源类型。例如：int 和 double 兼容（都是数字类型），而 double &gt; int 。</p>
+</li>
+<li><p>显式类型转换</p>
+<ul>
+<li><p>兼容类型</p>
+<p>  ​    高阶转换成低阶，可能会造成数据丢失。例如：</p>
+  <figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">double</span> num = <span class="number">521.1314</span>;</span><br><span class="line"><span class="built_in">int</span> num_1;</span><br><span class="line">num_1 = (<span class="built_in">int</span>)num;	<span class="comment">//此时 num_1 的值为 521</span></span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>​    注意：浮点型向整型转换时，会直接<strong>舍弃</strong>小数部分</p>
+</blockquote>
+</li>
+<li><p>不兼容类型/Convert类型转换</p>
+  <figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">string</span> str = <span class="string">&quot;1234&quot;</span>;</span><br><span class="line"><span class="built_in">double</span> num;</span><br><span class="line">num = Convert.ToDouble(str);</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+</li>
+</ul>
+<pre><code>    &gt; 转换的内容必须合理，比如 `14A` 中的 `A`不能转换成数字。
+</code></pre><ul>
+<li><p><code>Convert</code>类型转换对应的所有方法如下：</p>
+<p>  |   方法名   | 描述                                                         |<br>  | :————: | :—————————————————————————————- |<br>  | ToBoolean  | 如果可能的话，把类型转换为布尔型。                           |<br>  |   ToByte   | 如果可能的话，把类型转换为字节类型。                         |<br>  |   ToChar   | 如果可能的话，把类型转换为单个 Unicode 字符类型。            |<br>  | ToDateTime | 如果可能的话，把类型（整数或字符串类型）转换为 日期-时间 结构。 |<br>  | ToDecimal  | 如果可能的话，把浮点型或整数类型转换为十进制类型。           |<br>  |  ToDouble  | 如果可能的话，把类型转换为双精度浮点型。                     |<br>  |  ToInt16   | 如果可能的话，把类型转换为 16 位整数类型。                   |<br>  |  ToInt32   | 如果可能的话，把类型转换为 32 位整数类型。                   |<br>  |  ToInt64   | 如果可能的话，把类型转换为 64 位整数类型。                   |<br>  |  ToSbyte   | 如果可能的话，把类型转换为有符号字节类型。                   |<br>  |  ToSingle  | 如果可能的话，把类型转换为小浮点数类型。                     |<br>  |  ToString  | 如果可能的话，把类型转换为字符串类型。                       |<br>  |   ToType   | 如果可能的话，把类型转换为指定类型。                         |<br>  |  ToUInt16  | 如果可能的话，把类型转换为 16 位无符号整数类型。             |<br>  |  ToUInt32  | 如果可能的话，把类型转换为 32 位无符号整数类型。             |<br>  |  ToUInt64  | 如果可能的话，把类型转换为 64 位无符号整数类型。             |</p>
+</li>
+</ul>
+<h2 id="2-4-运算符"><a href="#2-4-运算符" class="headerlink" title="2.4 运算符"></a>2.4 运算符</h2><p>运算符是一种告诉编译器执行特定的数学或逻辑操作的符号。分类如下：</p>
+<ul>
+<li>算术运算符</li>
+<li>关系运算符</li>
+<li>逻辑运算符</li>
+<li>位运算符</li>
+<li>赋值运算符</li>
+<li>其他运算符</li>
+</ul>
+<h3 id="2-4-1-算数运算符"><a href="#2-4-1-算数运算符" class="headerlink" title="2.4.1 算数运算符"></a>2.4.1 算数运算符</h3><div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">加</th>
+<th style="text-align:center">减</th>
+<th style="text-align:center">乘</th>
+<th style="text-align:center">除</th>
+<th style="text-align:center">取余</th>
+<th style="text-align:center">自增</th>
+<th style="text-align:center">自减</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">+</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">*</td>
+<td style="text-align:center">/</td>
+<td style="text-align:center">%</td>
+<td style="text-align:center">++</td>
+<td style="text-align:center">—</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>自增和自减有两种，前置和后置。分别对应如下：</p>
+<figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">int</span> i;</span><br><span class="line">i++;</span><br><span class="line">++i;</span><br></pre></td></tr></table></figure>
+<p>二者的区别是：</p>
+<ul>
+<li><code>++i</code>：表示取<code>i</code>的地址，增加它的内容，然后把值放在寄存器中（<strong>先加后用</strong>）</li>
+<li><code>i++</code>：表示取<code>i</code>的地址，把它的值装入寄存器，然后增加内存中的a的值（<strong>先用后加</strong>）</li>
+</ul>
+<p><strong>而前置自增 (<code>++i</code>) 通常要比后置自增 (<code>i++</code>) 效率更高</strong>。理由如下：</p>
+<figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//前置++</span></span><br><span class="line">Age&amp; <span class="keyword">operator</span>++() </span><br><span class="line">&#123;</span><br><span class="line">    ++i</span><br><span class="line">    <span class="keyword">return</span> *<span class="keyword">this</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//后置++</span></span><br><span class="line"><span class="keyword">const</span> Age <span class="keyword">operator</span>++(<span class="built_in">int</span>)</span><br><span class="line">&#123;</span><br><span class="line">    Age tmp = *<span class="keyword">this</span>;</span><br><span class="line">    ++(*<span class="keyword">this</span>);  <span class="comment">//利用前置++</span></span><br><span class="line">    <span class="keyword">return</span> tmp;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>前置直接对源数据进行加 1 操作；而后置需要先创建一个临时变量，源数据保存一个副本后，再加 1 </li>
+<li>时间上来看：后置的语句更多，占用的时间更多</li>
+<li>空间上来看：后置需要创建临时变量（用完释放），因此占用的内存更多</li>
+</ul>
+<h3 id="2-4-2-关系运算符"><a href="#2-4-2-关系运算符" class="headerlink" title="2.4.2 关系运算符"></a>2.4.2 关系运算符</h3><p>下表显示了 C# 支持的所有关系运算符。假设变量 <strong>A</strong> 的值为 10，变量 <strong>B</strong> 的值为 20，则：</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">运算符</th>
+<th style="text-align:left">描述</th>
+<th style="text-align:center">实例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">==</td>
+<td style="text-align:left">检查两个操作数的值是否相等，如果相等则条件为真。</td>
+<td style="text-align:center">(A == B) 不为真。</td>
+</tr>
+<tr>
+<td style="text-align:center">!=</td>
+<td style="text-align:left">检查两个操作数的值是否相等，如果不相等则条件为真。</td>
+<td style="text-align:center">(A != B) 为真。</td>
+</tr>
+<tr>
+<td style="text-align:center">&gt;</td>
+<td style="text-align:left">检查左操作数的值是否大于右操作数的值，如果是则条件为真。</td>
+<td style="text-align:center">(A &gt; B) 不为真。</td>
+</tr>
+<tr>
+<td style="text-align:center">&lt;</td>
+<td style="text-align:left">检查左操作数的值是否小于右操作数的值，如果是则条件为真。</td>
+<td style="text-align:center">(A &lt; B) 为真。</td>
+</tr>
+<tr>
+<td style="text-align:center">&gt;=</td>
+<td style="text-align:left">检查左操作数的值是否大于或等于右操作数的值，如果是则条件为真。</td>
+<td style="text-align:center">(A &gt;= B) 不为真。</td>
+</tr>
+<tr>
+<td style="text-align:center">&lt;=</td>
+<td style="text-align:left">检查左操作数的值是否小于或等于右操作数的值，如果是则条件为真。</td>
+<td style="text-align:center">(A &lt;= B) 为真。</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="2-4-3-逻辑运算符"><a href="#2-4-3-逻辑运算符" class="headerlink" title="2.4.3 逻辑运算符"></a>2.4.3 逻辑运算符</h3><p>下表显示了 C# 支持的所有逻辑运算符。假设变量 A 为布尔值 true，变量 B 为布尔值 false，则：</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">运算符</th>
+<th style="text-align:left">描述</th>
+<th style="text-align:center">实例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">&amp;&amp;</td>
+<td style="text-align:left">称为逻辑与运算符。如果两个操作数都非零，则条件为真。</td>
+<td style="text-align:center">(A &amp;&amp; B) 为假。</td>
+</tr>
+<tr>
+<td style="text-align:center">\</td>
+<td style="text-align:left">\</td>
+<td style="text-align:center"></td>
+<td>称为逻辑或运算符。如果两个操作数中有任意一个非零，则条件为真。</td>
+<td>(A \</td>
+<td>\</td>
+<td>B) 为真。</td>
+</tr>
+<tr>
+<td style="text-align:center">!</td>
+<td style="text-align:left">称为逻辑非运算符。用来逆转操作数的逻辑状态。如果条件为真则逻辑非运算符将使其为假。</td>
+<td style="text-align:center">!(A &amp;&amp; B) 为真。</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="2-4-4-位运算符"><a href="#2-4-4-位运算符" class="headerlink" title="2.4.4 位运算符"></a>2.4.4 位运算符</h3><p>位逻辑运算符作用于位，并逐位执行操作。&amp;、 | 和 ^ 的真值表如下所示：</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">p</th>
+<th style="text-align:center">q</th>
+<th style="text-align:center">p &amp; q</th>
+<th style="text-align:center">p \</th>
+<th style="text-align:center">q</th>
+<th>p ^ q</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">0</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">0</td>
+</tr>
+<tr>
+<td style="text-align:center">0</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">1</td>
+</tr>
+<tr>
+<td style="text-align:center">1</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">0</td>
+</tr>
+<tr>
+<td style="text-align:center">1</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">1</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>以及位操作符：</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">运算符</th>
+<th style="text-align:left">描述</th>
+<th style="text-align:left">实例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">&amp;</td>
+<td style="text-align:left">如果同时存在于两个操作数中，二进制 AND 运算符复制一位到结果中。</td>
+<td style="text-align:left">(A &amp; B) 将得到 12，即为 0000 1100</td>
+</tr>
+<tr>
+<td style="text-align:center">\</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">如果存在于任一操作数中，二进制 OR 运算符复制一位到结果中。</td>
+<td>(A \</td>
+<td>B) 将得到 61，即为 0011 1101</td>
+</tr>
+<tr>
+<td style="text-align:center">^</td>
+<td style="text-align:left">如果存在于其中一个操作数中但不同时存在于两个操作数中，二进制异或运算符复制一位到结果中。</td>
+<td style="text-align:left">(A ^ B) 将得到 49，即为 0011 0001</td>
+</tr>
+<tr>
+<td style="text-align:center">~</td>
+<td style="text-align:left">二进制补码运算符是一元运算符，具有”翻转”位效果。</td>
+<td style="text-align:left">(~A ) 将得到 -61，即为 1100 0011，2 的补码形式，带符号的二进制数。</td>
+</tr>
+<tr>
+<td style="text-align:center">&lt;&lt;</td>
+<td style="text-align:left">二进制左移运算符。左操作数的值向左移动右操作数指定的位数。</td>
+<td style="text-align:left">A &lt;&lt; 2 将得到 240，即为 1111 0000</td>
+</tr>
+<tr>
+<td style="text-align:center">&gt;&gt;</td>
+<td style="text-align:left">二进制右移运算符。左操作数的值向右移动右操作数指定的位数。</td>
+<td style="text-align:left">A &gt;&gt; 2 将得到 15，即为 0000 1111</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="2-4-5-赋值运算符"><a href="#2-4-5-赋值运算符" class="headerlink" title="2.4.5 赋值运算符"></a>2.4.5 赋值运算符</h3><p>下表列出了 C# 支持的赋值运算符：</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">运算符</th>
+<th style="text-align:left">描述</th>
+<th style="text-align:center">实例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">=</td>
+<td style="text-align:left">简单的赋值运算符，把右边操作数的值赋给左边操作数</td>
+<td style="text-align:center">C = A + B 将把 A + B 的值赋给 C</td>
+</tr>
+<tr>
+<td style="text-align:center">+=</td>
+<td style="text-align:left">加且赋值运算符，把右边操作数加上左边操作数的结果赋值给左边操作数</td>
+<td style="text-align:center">C += A 相当于 C = C + A</td>
+</tr>
+<tr>
+<td style="text-align:center">-=</td>
+<td style="text-align:left">减且赋值运算符，把左边操作数减去右边操作数的结果赋值给左边操作数</td>
+<td style="text-align:center">C -= A 相当于 C = C - A</td>
+</tr>
+<tr>
+<td style="text-align:center">*=</td>
+<td style="text-align:left">乘且赋值运算符，把右边操作数乘以左边操作数的结果赋值给左边操作数</td>
+<td style="text-align:center">C <em>= A 相当于 C = C </em> A</td>
+</tr>
+<tr>
+<td style="text-align:center">/=</td>
+<td style="text-align:left">除且赋值运算符，把左边操作数除以右边操作数的结果赋值给左边操作数</td>
+<td style="text-align:center">C /= A 相当于 C = C / A</td>
+</tr>
+<tr>
+<td style="text-align:center">%=</td>
+<td style="text-align:left">求模且赋值运算符，求两个操作数的模赋值给左边操作数</td>
+<td style="text-align:center">C %= A 相当于 C = C % A</td>
+</tr>
+<tr>
+<td style="text-align:center">&lt;&lt;=</td>
+<td style="text-align:left">左移且赋值运算符</td>
+<td style="text-align:center">C &lt;&lt;= 2 等同于 C = C &lt;&lt; 2</td>
+</tr>
+<tr>
+<td style="text-align:center">&gt;&gt;=</td>
+<td style="text-align:left">右移且赋值运算符</td>
+<td style="text-align:center">C &gt;&gt;= 2 等同于 C = C &gt;&gt; 2</td>
+</tr>
+<tr>
+<td style="text-align:center">&amp;=</td>
+<td style="text-align:left">按位与且赋值运算符</td>
+<td style="text-align:center">C &amp;= 2 等同于 C = C &amp; 2</td>
+</tr>
+<tr>
+<td style="text-align:center">^=</td>
+<td style="text-align:left">按位异或且赋值运算符</td>
+<td style="text-align:center">C ^= 2 等同于 C = C ^ 2</td>
+</tr>
+<tr>
+<td style="text-align:center">\</td>
+<td style="text-align:left">=</td>
+<td style="text-align:center">按位或且赋值运算符</td>
+<td>C \</td>
+<td>= 2 等同于 C = C \</td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="2-4-6-其他运算符"><a href="#2-4-6-其他运算符" class="headerlink" title="2.4.6 其他运算符"></a>2.4.6 其他运算符</h3><p>下表列出了 C# 支持的其他一些重要的运算符：</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">运算符</th>
+<th style="text-align:left">描述</th>
+<th style="text-align:left">实例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">sizeof()</td>
+<td style="text-align:left">返回数据类型的大小。</td>
+<td style="text-align:left">sizeof(int)，将返回 4.</td>
+</tr>
+<tr>
+<td style="text-align:center">typeof()</td>
+<td style="text-align:left">返回变量的类型。</td>
+<td style="text-align:left">typeof(StreamReader);</td>
+</tr>
+<tr>
+<td style="text-align:center">&amp;</td>
+<td style="text-align:left">返回变量的地址。</td>
+<td style="text-align:left">&a; 将得到变量的实际地址。</td>
+</tr>
+<tr>
+<td style="text-align:center">*</td>
+<td style="text-align:left">变量的指针。</td>
+<td style="text-align:left">*a; 将指向一个变量。</td>
+</tr>
+<tr>
+<td style="text-align:center">? :</td>
+<td style="text-align:left">条件表达式</td>
+<td style="text-align:left">如果条件为真 ? 则为 X : 否则为 Y</td>
+</tr>
+<tr>
+<td style="text-align:center">is</td>
+<td style="text-align:left">判断当前对象是否为XXX类型</td>
+<td style="text-align:left">返回ture 或 false</td>
+</tr>
+<tr>
+<td style="text-align:center">as</td>
+<td style="text-align:left">强制转换，即使转换失败也不会抛出异常。</td>
+<td style="text-align:left">转换成功，返回转换后的对象；反之，返回 NULL</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="2-5-特殊字符"><a href="#2-5-特殊字符" class="headerlink" title="2.5 特殊字符"></a>2.5 特殊字符</h2><h3 id="2-5-1-转义字符"><a href="#2-5-1-转义字符" class="headerlink" title="2.5.1 转义字符"></a>2.5.1 转义字符</h3><p><code>\\</code> + <code>特殊字符</code> = <code>具有特殊意义的字符</code>。例如下表所示：</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">转义符</th>
+<th style="text-align:center">字符名</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">\‘</td>
+<td style="text-align:center">单引号</td>
+</tr>
+<tr>
+<td style="text-align:center">\“</td>
+<td style="text-align:center">双引号</td>
+</tr>
+<tr>
+<td style="text-align:center">\\</td>
+<td style="text-align:center">反斜杠</td>
+</tr>
+<tr>
+<td style="text-align:center">\0</td>
+<td style="text-align:center">空字符</td>
+</tr>
+<tr>
+<td style="text-align:center">\a</td>
+<td style="text-align:center">感叹号</td>
+</tr>
+<tr>
+<td style="text-align:center">\b</td>
+<td style="text-align:center">退格</td>
+</tr>
+<tr>
+<td style="text-align:center">\f</td>
+<td style="text-align:center">换页</td>
+</tr>
+<tr>
+<td style="text-align:center">\n</td>
+<td style="text-align:center">新行</td>
+</tr>
+<tr>
+<td style="text-align:center">\r</td>
+<td style="text-align:center">回车</td>
+</tr>
+<tr>
+<td style="text-align:center">\t</td>
+<td style="text-align:center">水平tab</td>
+</tr>
+<tr>
+<td style="text-align:center">\v</td>
+<td style="text-align:center">垂直tab</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="2-5-2-符"><a href="#2-5-2-符" class="headerlink" title="2.5.2  @ 符"></a>2.5.2  @ 符</h3><ol>
+<li>取消字符串中转义字符的转义作用。用在字符串前时，字符串里面的转义字符不转义。将字符串按照原格式输出。</li>
+</ol>
+<h3 id="2-5-3-符"><a href="#2-5-3-符" class="headerlink" title="2.5.3  + 符"></a>2.5.3  + 符</h3><ul>
+<li><p>当<code>+</code>两边至少有一边为字符串时，作用为拼接字符串的作用</p>
+<p>  ​    具体语法如下：</p>
+  <figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">string</span> name = <span class="string">&quot;AAAAA&quot;</span>;</span><br><span class="line"><span class="built_in">int</span> age = <span class="number">18</span>;</span><br><span class="line"><span class="built_in">string</span> email = <span class="string">&quot;XXXXX@xx.com&quot;</span>;</span><br><span class="line"><span class="built_in">string</span> address = <span class="string">&quot;SSSSS&quot;</span>;</span><br><span class="line"><span class="built_in">int</span> salary = <span class="number">10000</span>;</span><br><span class="line">Console.WriteLine(<span class="string">&quot;我叫&quot;</span> + name + <span class="string">&quot;，今年&quot;</span> + age + <span class="string">&quot;岁了，邮箱是：&quot;</span> + email + <span class="string">&quot;,住在&quot;</span> + address + <span class="string">&quot;,每月的收入是&quot;</span> + salary + <span class="string">&quot;日元&quot;</span>);</span><br><span class="line">Console.ReadKey();</span><br></pre></td></tr></table></figure>
+<p>  ​    </p>
+</li>
+<li><p>数字相加</p>
+<p>  具体语法如下：</p>
+  <figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">int</span> num_1 = <span class="number">1</span>;</span><br><span class="line"><span class="built_in">int</span> num_2 = <span class="number">4</span>;</span><br><span class="line"><span class="built_in">int</span> num_3 = num_1 + num_2;</span><br><span class="line">Console.WriteLine(num_3);</span><br></pre></td></tr></table></figure>
+<p>  ​    </p>
+</li>
+</ul>
+<h3 id="2-5-4-占位符"><a href="#2-5-4-占位符" class="headerlink" title="2.5.4 占位符"></a>2.5.4 占位符</h3><p>用在字符串内，增强代码的可读性。具体语法如下：</p>
+<figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">int</span> a = <span class="number">1</span>;</span><br><span class="line"><span class="built_in">int</span> b = <span class="number">2</span>;</span><br><span class="line"><span class="built_in">int</span> c = <span class="number">3</span>;</span><br><span class="line">Console.WriteLine(<span class="string">&quot;第一个数字是：&quot;</span> + a + <span class="string">&quot;，第二个数字是：&quot;</span> + b + <span class="string">&quot;，第三个数字是：&quot;</span> + c);</span><br><span class="line">Console.WriteLine(<span class="string">&quot;第一个数字是：&#123;0&#125;，第二个数字是：&#123;1&#125;，第三个数字是：&#123;2&#125;&quot;</span>,a,b,c);</span><br></pre></td></tr></table></figure>
+<p>使用注意：</p>
+<ul>
+<li>挖几个坑，就要填几个坑。如果多填，不报错但没效果；如果少填，就会异常（语法没错误，只不过在程序运行期间，由于某些原因出现问题，使程序不在正常的运行）</li>
+<li>输出顺序{0}，{1}，{2}… 对应 a, b, c, ….</li>
+</ul>
+<h2 id="2-6-可空类型💖💖💖"><a href="#2-6-可空类型💖💖💖" class="headerlink" title="2.6 可空类型💖💖💖"></a>2.6 可空类型💖💖💖</h2><p>在 C# 中，值类型例如 int 的默认值是 0 ，同时也不能进 <code>a = null</code> 的赋值操作。一般情况下所有 <code>if( a != null)</code> 永远为真。</p>
+<p>C# 提供了一个特殊的数据类型，<code>nullable</code> 类型（<strong>可空类型</strong>），可空类型可以表示其基础值类型正常范围内的值，再加上一个 null 值。</p>
+<p><code>?</code> 单问号用于对 <code>int、double、bool</code>等无法直接赋值为 <code>null</code> 的数据类型进行 <code>null</code> 的赋值</p>
+<h3 id="2-6-1-定义可空类型"><a href="#2-6-1-定义可空类型" class="headerlink" title="2.6.1 定义可空类型"></a>2.6.1 定义可空类型</h3><p>语法如下：声明一个 <code>nullable</code> 类型（可空类型）的语法如下：</p>
+<figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;data_type&gt;? &lt;variable_name&gt; = <span class="literal">null</span>;</span><br><span class="line"></span><br><span class="line"><span class="built_in">int</span>? i = <span class="literal">null</span>;</span><br></pre></td></tr></table></figure>
+<h3 id="2-6-2-null-合并运算符（-）"><a href="#2-6-2-null-合并运算符（-）" class="headerlink" title="2.6.2 null 合并运算符（ ?? ）"></a>2.6.2 null 合并运算符（ ?? ）</h3><p><code>null</code>合并运算符用于定义<strong>可空类型</strong>和<strong>引用类型</strong>的默认值。<strong>null 合并运算符为类型转换定义了一个预设值，以防可空类型的值为 null</strong>。下面的实例演示：</p>
+<figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">using</span> System;</span><br><span class="line"><span class="keyword">namespace</span> <span class="title">CalculatorApplication</span></span><br><span class="line">&#123;</span><br><span class="line">   <span class="keyword">class</span> <span class="title">NullablesAtShow</span></span><br><span class="line">   &#123;      </span><br><span class="line">      <span class="function"><span class="keyword">static</span> <span class="keyword">void</span> <span class="title">Main</span>(<span class="params"><span class="built_in">string</span>[] args</span>)</span></span><br><span class="line">      &#123;</span><br><span class="line">          <span class="comment">//定义可空类型</span></span><br><span class="line">          <span class="built_in">double</span>? num1 = <span class="literal">null</span>;</span><br><span class="line">          <span class="built_in">double</span>? num2 = <span class="number">3.14157</span>;</span><br><span class="line">          <span class="built_in">double</span> num3;</span><br><span class="line">          <span class="comment">//如果第一个操作数的值为 null，则运算符返回第二个操作数的值，否则返回第一个操作数的值</span></span><br><span class="line">          num3 = num1 ?? <span class="number">5.34</span>;</span><br><span class="line">          Console.WriteLine(<span class="string">&quot;num3 的值： &#123;0&#125;&quot;</span>, num3);</span><br><span class="line">          num3 = num2 ?? <span class="number">5.34</span>;</span><br><span class="line">          Console.WriteLine(<span class="string">&quot;num3 的值： &#123;0&#125;&quot;</span>, num3);</span><br><span class="line">          Console.ReadLine();</span><br><span class="line">      &#125;</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="三、流程控制语句"><a href="#三、流程控制语句" class="headerlink" title="三、流程控制语句"></a>三、流程控制语句</h1><h2 id="3-1-选择结构"><a href="#3-1-选择结构" class="headerlink" title="3.1 选择结构"></a>3.1 选择结构</h2><h3 id="3-1-1-单-if-语句"><a href="#3-1-1-单-if-语句" class="headerlink" title="3.1.1 单 if 语句"></a>3.1.1 单 if 语句</h3><p>具体语法如下：</p>
+<figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span>(逻辑表达式)</span><br><span class="line">&#123;</span><br><span class="line">   <span class="comment">/* 如果逻辑表达式为真将执行的语句 */</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="3-1-2-if-else-语句"><a href="#3-1-2-if-else-语句" class="headerlink" title="3.1.2 if/else 语句"></a>3.1.2 if/else 语句</h3><p>具体语法如下：</p>
+<figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span>(boolean_expression)</span><br><span class="line">&#123;</span><br><span class="line">   <span class="comment">/* 如果布尔表达式为真将执行的语句 */</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">&#123;</span><br><span class="line">  <span class="comment">/* 如果布尔表达式为假将执行的语句 */</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="3-1-3-switch-语句"><a href="#3-1-3-switch-语句" class="headerlink" title="3.1.3 switch 语句"></a>3.1.3 switch 语句</h3><p>具体语法如下：</p>
+<figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">switch</span>(expression)</span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">case</span> constant-expression:</span><br><span class="line">       statement(s);</span><br><span class="line">       <span class="keyword">break</span>;</span><br><span class="line">    <span class="keyword">case</span> constant-expression:</span><br><span class="line">       statement(s);</span><br><span class="line">       <span class="keyword">break</span>;</span><br><span class="line">        </span><br><span class="line">    <span class="comment">/* 您可以有任意数量的 case 语句 */</span></span><br><span class="line">    <span class="literal">default</span> : <span class="comment">/* 默认执行（除了上面情况之外） */</span></span><br><span class="line">       statement(s);</span><br><span class="line">       <span class="keyword">break</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><code>switch</code>语句必须遵循下面的规则：</p>
+<ul>
+<li><code>case</code> 的<code>constant-expression</code>必须与<code>switch</code>中的变量具有相同的数据类型，且必须是一个常量。</li>
+<li>当遇到<code>break</code>语句时，<code>switch</code>终止，控制流将跳转到 <code>switch</code> 语句后的下一行。</li>
+<li>C# 不允许从一个开关部分继续执行到下一个开关部分。如果 <code>case</code> 语句中有处理语句，则必须包含<code>break</code>或其他跳转语句。</li>
+</ul>
+<h3 id="3-1-4-三目运算符"><a href="#3-1-4-三目运算符" class="headerlink" title="3.1.4 三目运算符"></a>3.1.4 三目运算符</h3><p>具体语法如下：</p>
+<figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">逻辑表达式 ? Exp2 : Exp3</span><br></pre></td></tr></table></figure>
+<p>请注意，冒号的使用和位置。 <code>?</code> 表达式的值是由<strong>逻辑表达式</strong>决定的。</p>
+<ul>
+<li>如果逻辑表达式为真，则计算 Exp2 的值，结果即为整个 ? 表达式的值</li>
+<li>如果逻辑表达式为假，则计算 Exp3 的值，结果即为整个 ? 表达式的值</li>
+</ul>
+<h2 id="3-2-循环结构"><a href="#3-2-循环结构" class="headerlink" title="3.2 循环结构"></a>3.2 循环结构</h2><h3 id="3-2-1-while-语句"><a href="#3-2-1-while-语句" class="headerlink" title="3.2.1 while 语句"></a>3.2.1 while 语句</h3><p>具体语法如下：</p>
+<figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">while</span>(逻辑表达式/循环条件)</span><br><span class="line">&#123;</span><br><span class="line">    循环体;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>先进行判断，满足判断条件后再循环。</p>
+<h3 id="3-2-2-do-while-语句"><a href="#3-2-2-do-while-语句" class="headerlink" title="3.2.2 do-while 语句"></a>3.2.2 do-while 语句</h3><p>具体语法如下：</p>
+<figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">do</span></span><br><span class="line">&#123;</span><br><span class="line">    循环体;</span><br><span class="line">&#125;<span class="keyword">while</span>(逻辑表达式/循环条件);</span><br></pre></td></tr></table></figure>
+<p>先进行循环，然后判断是否继续循环。</p>
+<h3 id="3-2-3-for-语句"><a href="#3-2-3-for-语句" class="headerlink" title="3.2.3 for 语句"></a>3.2.3 for 语句</h3><p>具体语法如下：</p>
+<figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span>(表达式<span class="number">1</span>;表达式<span class="number">2</span>;表达式<span class="number">3</span>)</span><br><span class="line">&#123;</span><br><span class="line">    循环体;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//表达式1一般为声明循环变量</span></span><br><span class="line"><span class="comment">//循环条件</span></span><br><span class="line"><span class="comment">//改变循环条件</span></span><br></pre></td></tr></table></figure>
+<h3 id="3-2-4-循环控制语句"><a href="#3-2-4-循环控制语句" class="headerlink" title="3.2.4 循环控制语句"></a>3.2.4 循环控制语句</h3><ol>
+<li><code>break</code>：跳出当前循环，如果有循环的嵌套，那么只会跳出<strong>一层</strong>循环</li>
+<li><code>continue</code>：立即结束<strong>本次</strong>循环，然后判断循环条件，如果成立，则进入下一次循环，否则退出循环</li>
+</ol>
+<h1 id="四、复杂数据类型"><a href="#四、复杂数据类型" class="headerlink" title="四、复杂数据类型"></a>四、复杂数据类型</h1></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="http://starryskybird.yuilexi.cn">YuiLexi</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://starryskybird.yuilexi.cn/2023/04/26/Csharp%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/">http://starryskybird.yuilexi.cn/2023/04/26/Csharp%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://starryskybird.yuilexi.cn" target="_blank">🪐星空鸟🪐</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E6%95%99%E7%A8%8B/">教程</a><a class="post-meta__tags" href="/tags/C/">C#</a><a class="post-meta__tags" href="/tags/%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/">程序设计</a><a class="post-meta__tags" href="/tags/NET/">.NET</a><a class="post-meta__tags" href="/tags/Unity/">Unity</a></div><div class="post_share"><div class="social-share" data-image="https://imageshack.yuilexi.cn/starryskybird/cover-img-8.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/2023/04/26/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84C%E8%AF%AD%E8%A8%80%E7%89%88/" title="数据结构C语言版"><img class="cover" src="https://imageshack.yuilexi.cn/starryskybird/cover-img-5.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2023-04-26</div><div class="title">数据结构C语言版</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E8%AE%A4%E8%AF%86-C"><span class="toc-text">一、认识 C</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-1-%E4%BB%80%E4%B9%88%E6%98%AF-NET%EF%BC%9F"><span class="toc-text">1.1 什么是 .NET？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-2-%E4%BB%80%E4%B9%88%E6%98%AF-C-%EF%BC%9F"><span class="toc-text">1.2 什么是 C#？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-3-NET%E4%B8%A4%E7%A7%8D%E4%BA%A4%E4%BA%92%E6%A8%A1%E5%BC%8F"><span class="toc-text">1.3 .NET两种交互模式</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-4-%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7"><span class="toc-text">1.4 开发工具</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BA%8C%E3%80%81C-%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80"><span class="toc-text">二、C#语法基础</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#2-1-C-%E7%A8%8B%E5%BA%8F%E4%B8%80%E8%88%AC%E7%BB%93%E6%9E%84"><span class="toc-text">2.1 C#程序一般结构</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-2-%E6%B3%A8%E9%87%8A"><span class="toc-text">2.2 注释</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-3-%E5%9F%BA%E6%9C%AC%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B"><span class="toc-text">2.3 基本数据类型</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#2-3-1-%E5%80%BC%E7%B1%BB%E5%9E%8B"><span class="toc-text">2.3.1 值类型</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-3-1-%E5%BC%95%E7%94%A8%E7%B1%BB%E5%9E%8B"><span class="toc-text">2.3.1 引用类型</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-3-3-%E6%8C%87%E9%92%88%E7%B1%BB%E5%9E%8B"><span class="toc-text">2.3.3 指针类型</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-3-4-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E7%9A%84%E8%BD%AC%E6%8D%A2"><span class="toc-text">2.3.4 数据类型的转换</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-4-%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="toc-text">2.4 运算符</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#2-4-1-%E7%AE%97%E6%95%B0%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="toc-text">2.4.1 算数运算符</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-4-2-%E5%85%B3%E7%B3%BB%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="toc-text">2.4.2 关系运算符</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-4-3-%E9%80%BB%E8%BE%91%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="toc-text">2.4.3 逻辑运算符</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-4-4-%E4%BD%8D%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="toc-text">2.4.4 位运算符</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-4-5-%E8%B5%8B%E5%80%BC%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="toc-text">2.4.5 赋值运算符</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-4-6-%E5%85%B6%E4%BB%96%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="toc-text">2.4.6 其他运算符</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-5-%E7%89%B9%E6%AE%8A%E5%AD%97%E7%AC%A6"><span class="toc-text">2.5 特殊字符</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#2-5-1-%E8%BD%AC%E4%B9%89%E5%AD%97%E7%AC%A6"><span class="toc-text">2.5.1 转义字符</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-5-2-%E7%AC%A6"><span class="toc-text">2.5.2  @ 符</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-5-3-%E7%AC%A6"><span class="toc-text">2.5.3  + 符</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-5-4-%E5%8D%A0%E4%BD%8D%E7%AC%A6"><span class="toc-text">2.5.4 占位符</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-6-%E5%8F%AF%E7%A9%BA%E7%B1%BB%E5%9E%8B%F0%9F%92%96%F0%9F%92%96%F0%9F%92%96"><span class="toc-text">2.6 可空类型💖💖💖</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#2-6-1-%E5%AE%9A%E4%B9%89%E5%8F%AF%E7%A9%BA%E7%B1%BB%E5%9E%8B"><span class="toc-text">2.6.1 定义可空类型</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-6-2-null-%E5%90%88%E5%B9%B6%E8%BF%90%E7%AE%97%E7%AC%A6%EF%BC%88-%EF%BC%89"><span class="toc-text">2.6.2 null 合并运算符（ ?? ）</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6%E8%AF%AD%E5%8F%A5"><span class="toc-text">三、流程控制语句</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#3-1-%E9%80%89%E6%8B%A9%E7%BB%93%E6%9E%84"><span class="toc-text">3.1 选择结构</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#3-1-1-%E5%8D%95-if-%E8%AF%AD%E5%8F%A5"><span class="toc-text">3.1.1 单 if 语句</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-1-2-if-else-%E8%AF%AD%E5%8F%A5"><span class="toc-text">3.1.2 if&#x2F;else 语句</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-1-3-switch-%E8%AF%AD%E5%8F%A5"><span class="toc-text">3.1.3 switch 语句</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-1-4-%E4%B8%89%E7%9B%AE%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="toc-text">3.1.4 三目运算符</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-2-%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84"><span class="toc-text">3.2 循环结构</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#3-2-1-while-%E8%AF%AD%E5%8F%A5"><span class="toc-text">3.2.1 while 语句</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-2-2-do-while-%E8%AF%AD%E5%8F%A5"><span class="toc-text">3.2.2 do-while 语句</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-2-3-for-%E8%AF%AD%E5%8F%A5"><span class="toc-text">3.2.3 for 语句</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-2-4-%E5%BE%AA%E7%8E%AF%E6%8E%A7%E5%88%B6%E8%AF%AD%E5%8F%A5"><span class="toc-text">3.2.4 循环控制语句</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%9B%9B%E3%80%81%E5%A4%8D%E6%9D%82%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B"><span class="toc-text">四、复杂数据类型</span></a></li></ol></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2023 By YuiLexi</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><a class="icon-V hidden" onclick="switchNightMode()" title="浅色和深色模式转换"><svg width="25" height="25" viewBox="0 0 1024 1024"><use id="modeicon" xlink:href="#icon-moon"></use></svg></a><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><script defer src="/js/light.js"></script><canvas id="universe"></canvas><script defer src="/js/universe.js"></script><script async src="//npm.elemecdn.com/pace-js@1.2.4/pace.min.js"></script><script defer src="https://npm.elemecdn.com/jquery@latest/dist/jquery.min.js"></script><script defer data-pjax src="/js/cat.js"></script><script async src="/js/fps.js"></script><script src="/js/sun_moon.js" async></script><script async src="https://cdn1.tianli0.top/npm/vue@2.6.14/dist/vue.min.js"></script><script async src="https://cdn1.tianli0.top/npm/element-ui@2.15.6/lib/index.js"></script><script id="canvas_nest" defer="defer" color="0,0,255" opacity="0.7" zIndex="-1" count="99" mobile="false" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/canvas-nest.min.js"></script><script id="click-heart" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/click-heart.min.js" async="async" mobile="false"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div class="no-result" id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></div><!-- hexo injector body_end start --> <script data-pjax>if(document.getElementById('recent-posts') && (location.pathname ==='/'|| '/' ==='all')){
     var parent = document.getElementById('recent-posts');
     var child = '<div class="recent-post-item" style="width:100%;height: auto"><div id="catalog_magnet"><div class="magnet_item"><a class="magnet_link" href="http://starryskybird.yuilexi.cn/categories/程序设计/"><div class="magnet_link_context" style=""><span style="font-weight:500;flex:1">📚 小Yの编程学习 (1)</span><span style="padding:0px 4px;border-radius: 8px;"><i class="fas fa-arrow-circle-right"></i></span></div></a></div><div class="magnet_item"><a class="magnet_link" href="http://starryskybird.yuilexi.cn/categories/大学学习/"><div class="magnet_link_context" style=""><span style="font-weight:500;flex:1">🐱‍👓 小Yの大学学习 (1)</span><span style="padding:0px 4px;border-radius: 8px;"><i class="fas fa-arrow-circle-right"></i></span></div></a></div><div class="magnet_item" style="visibility: hidden"></div><a class="magnet_link_more"  href="http://starryskybird.yuilexi.cn/categories" style="flex:1;text-align: center;margin-bottom: 10px;">查看更多...</a></div></div>';
     console.log('已挂载magnet')
@@ -460,7 +950,7 @@ if (false) {
   </script><script async src="https://npm.elemecdn.com/hexo-butterfly-footer-beautify@1.0.0/lib/runtime.js"></script><script data-pjax>
   function butterfly_swiper_injector_config(){
     var parent_div_git = document.getElementById('recent-posts');
-    var item_html = '<div class="recent-post-item" style="height: auto;width: 100%"><div class="blog-slider swiper-container-fade swiper-container-horizontal" id="swiper_container"><div class="blog-slider__wrp swiper-wrapper" style="transition-duration: 0ms;"></div><div class="blog-slider__pagination swiper-pagination-clickable swiper-pagination-bullets"></div></div></div>';
+    var item_html = '<div class="recent-post-item" style="height: auto;width: 100%"><div class="blog-slider swiper-container-fade swiper-container-horizontal" id="swiper_container"><div class="blog-slider__wrp swiper-wrapper" style="transition-duration: 0ms;"><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" href="2023/04/26/Csharp基础知识/" alt=""><img width="48" height="48" src="https://imageshack.yuilexi.cn/starryskybird/cover-img-8.png" alt="" onerror="this.src=https://unpkg.zhimg.com/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2023-04-26</span><a class="blog-slider__title" href="2023/04/26/Csharp基础知识/" alt="">C#基础知识</a><div class="blog-slider__text">C#基础知识，涵盖了注释、变量类型、基础数据类型、运算符、流程控制语句、复杂数据类型、方法、面向对象程序设计</div><a class="blog-slider__button" href="2023/04/26/Csharp基础知识/" alt="">详情   </a></div></div></div><div class="blog-slider__pagination swiper-pagination-clickable swiper-pagination-bullets"></div></div></div>';
     console.log('已挂载butterfly_swiper')
     parent_div_git.insertAdjacentHTML("afterbegin",item_html)
     }
@@ -481,7 +971,7 @@ if (false) {
   else if (epage === cpage){
     butterfly_swiper_injector_config();
   }
-  </script><script defer src="https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.js"></script><script defer data-pjax src="https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper_init.js"></script><script async src="//at.alicdn.com/t/font_2032782_8d5kxvn09md.js"></script><div class="js-pjax"><script async="async">var arr = document.getElementsByClassName('recent-post-item');
+  </script><script defer src="https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.js"></script><script defer data-pjax src="https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper_init.js"></script><div class="js-pjax"><script async="async">var arr = document.getElementsByClassName('recent-post-item');
 for(var i = 0;i<arr.length;i++){
     arr[i].classList.add('wow');
     arr[i].classList.add('animate__zoomIn');
@@ -505,7 +995,7 @@ for(var i = 0;i<arr.length;i++){
     arr[i].setAttribute('data-wow-delay', '');
     arr[i].setAttribute('data-wow-offset', '');
     arr[i].setAttribute('data-wow-iteration', '');
-  }</script></div><script defer src="https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/wow.min.js"></script><script defer src="https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/wow_init.js"></script><script data-pjax src="https://npm.elemecdn.com/hexo-filter-gitcalendar/lib/gitcalendar.js"></script><script data-pjax>
+  }</script></div><script defer src="https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/wow.min.js"></script><script defer src="https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/wow_init.js"></script><script async src="//at.alicdn.com/t/font_2032782_8d5kxvn09md.js"></script><script data-pjax src="https://npm.elemecdn.com/hexo-filter-gitcalendar/lib/gitcalendar.js"></script><script data-pjax>
   function gitcalendar_injector_config(){
       var parent_div_git = document.getElementById('gitZone');
       var item_html = '<div class="recent-post-item" id="gitcalendarBar" style="width:100%;height:auto;padding:10px;"><style>#git_container{min-height: 280px}@media screen and (max-width:650px) {#git_container{min-height: 0px}}</style><div id="git_loading" style="width:10%;height:100%;margin:0 auto;display: block;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50" xml:space="preserve"><path fill="#d0d0d0" d="M25.251,6.461c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615V6.461z" transform="rotate(275.098 25 25)"><animatetransform attributeType="xml" attributeName="transform" type="rotate" from="0 25 25" to="360 25 25" dur="0.6s" repeatCount="indefinite"></animatetransform></path></svg><style>#git_container{display: none;}</style></div><div id="git_container"></div></div>';

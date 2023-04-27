@@ -4313,8 +4313,8 @@ h1.page-title + .tag-cloud-list {
 #article-container.post-content h6:before {
   position: absolute;
   top: calc(50% - 7px);
-  color: #f47466;
-  content: '\f0c1';
+  color: #61ddf0;
+  content: '\f185';
   line-height: 1;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
@@ -4915,6 +4915,29 @@ span.mathjax-overflow {
 @media screen and (max-width: 768px) {
   .fancybox__toolbar__column.is-middle {
     display: none;
+  }
+}
+[data-theme="dark"] #web_bg {
+  background: url(https://imageshack.yuilexi.cn/starryskybird/background-dark.png);
+  background-attachment: local;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 800px) {
+  #web_bg {
+    background: url(https://imageshack.yuilexi.cn/starryskybird/background.png) !important;
+    background-attachment: local !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+  }
+  [data-theme="dark"] #web_bg {
+    background: url(https://imageshack.yuilexi.cn/starryskybird/background-dark.png) !important;
+    background-attachment: local !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
   }
 }
 #article-container .btn-center {

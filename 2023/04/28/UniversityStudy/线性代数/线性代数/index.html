@@ -5,9 +5,9 @@
 <meta property="og:site_name" content="🪐星空鸟🪐">
 <meta property="og:description" content="此篇涵盖线性代数的基础知识点，包括向量、矩阵、行列式、特征值、特征向量、线性方程组、线性相关、线性无关、秩、线性变换、线性空间、内积、正交、正交矩阵、正交变换、对称矩阵、对称变换、二次型、正定矩阵、正定二次型、相似矩阵、相似变换、特征值分解、奇异值分解、正交矩阵的特征值、正交矩阵的特征向量、正交矩阵的特征值分解、正交矩阵的奇异值分解、正交矩阵的行列式、正交矩阵的逆矩阵、正交矩阵的转置矩阵、正交矩阵">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://imageshack.yuilexi.cn/starryskybird/cover-img-6.png">
+<meta property="og:image" content="https://imageshack.yuilexi.cn/starryskybird/cover-img-4.png">
 <meta property="article:published_time" content="2023-04-28T03:50:02.504Z">
-<meta property="article:modified_time" content="2023-04-28T03:58:31.565Z">
+<meta property="article:modified_time" content="2023-04-28T06:38:06.694Z">
 <meta property="article:author" content="YuiLexi">
 <meta property="article:tag" content="大学">
 <meta property="article:tag" content="数学">
@@ -16,7 +16,7 @@
 <meta property="article:tag" content="机器学习">
 <meta property="article:tag" content="神经网络">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://imageshack.yuilexi.cn/starryskybird/cover-img-6.png"><link rel="shortcut icon" href="/img/logo.png"><link rel="canonical" href="http://blog.yuilexi.cn/2023/04/28/UniversityStudy/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+<meta name="twitter:image" content="https://imageshack.yuilexi.cn/starryskybird/cover-img-4.png"><link rel="shortcut icon" href="/img/logo.png"><link rel="canonical" href="http://blog.yuilexi.cn/2023/04/28/UniversityStudy/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
   root: '/',
   algolia: undefined,
   localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"找不到您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
@@ -62,7 +62,7 @@
   isHome: false,
   isHighlightShrink: false,
   isToc: true,
-  postUpdate: '2023-04-28 11:58:31'
+  postUpdate: '2023-04-28 14:38:06'
 }</script><noscript><style type="text/css">
   #nav {
     opacity: 1
@@ -166,10 +166,10 @@
       }
     }
     detectApple()
-    })(window)</script><link rel="stylesheet" href="/css/personal.css"><link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="/css/mycss.css"><link rel="stylesheet" href="/css/mouse.css"><script src="/live2d-widget/autoload.js"></script><link rel="stylesheet" href="/css/progress_bar.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="/css/cat.css"><span id="fps"></span><link rel="stylesheet" href="https://cdn1.tianli0.top/npm/element-ui@2.15.6/packages/theme-chalk/lib/index.css"><div id="myscoll"></div><svg aria-hidden="true" style="position:absolute; overflow:hidden; width:0; height:0"><symbol id="icon-sun" viewBox="0 0 1024 1024"><path d="M960 512l-128 128v192h-192l-128 128-128-128H192v-192l-128-128 128-128V192h192l128-128 128 128h192v192z" fill="#FFD878" p-id="8420"></path><path d="M736 512a224 224 0 1 0-448 0 224 224 0 1 0 448 0z" fill="#FFE4A9" p-id="8421"></path><path d="M512 109.248L626.752 224H800v173.248L914.752 512 800 626.752V800h-173.248L512 914.752 397.248 800H224v-173.248L109.248 512 224 397.248V224h173.248L512 109.248M512 64l-128 128H192v192l-128 128 128 128v192h192l128 128 128-128h192v-192l128-128-128-128V192h-192l-128-128z" fill="#4D5152" p-id="8422"></path><path d="M512 320c105.888 0 192 86.112 192 192s-86.112 192-192 192-192-86.112-192-192 86.112-192 192-192m0-32a224 224 0 1 0 0 448 224 224 0 0 0 0-448z" fill="#4D5152" p-id="8423"></path></symbol><symbol id="icon-moon" viewBox="0 0 1024 1024"><path d="M611.370667 167.082667a445.013333 445.013333 0 0 1-38.4 161.834666 477.824 477.824 0 0 1-244.736 244.394667 445.141333 445.141333 0 0 1-161.109334 38.058667 85.077333 85.077333 0 0 0-65.066666 135.722666A462.08 462.08 0 1 0 747.093333 102.058667a85.077333 85.077333 0 0 0-135.722666 65.024z" fill="#FFB531" p-id="11345"></path><path d="M329.728 274.133333l35.157333-35.157333a21.333333 21.333333 0 1 0-30.165333-30.165333l-35.157333 35.157333-35.114667-35.157333a21.333333 21.333333 0 0 0-30.165333 30.165333l35.114666 35.157333-35.114666 35.157334a21.333333 21.333333 0 1 0 30.165333 30.165333l35.114667-35.157333 35.157333 35.157333a21.333333 21.333333 0 1 0 30.165333-30.165333z" fill="#030835" p-id="11346"></path></symbol></svg><!-- hexo injector head_end start --><link rel="stylesheet" href="/css/clock.min.css" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Zfour/Butterfly-double-row-display@1.00/cardlistpost.min.css"/>
+    })(window)</script><link rel="stylesheet" href="/css/personal.css"><link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="/css/mycss.css"><link rel="stylesheet" href="/css/mouse.css"><script src="/live2d-widget/autoload.js"></script><link rel="stylesheet" href="/css/progress_bar.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="/css/cat.css"><span id="fps"></span><link rel="stylesheet" href="https://cdn1.tianli0.top/npm/element-ui@2.15.6/packages/theme-chalk/lib/index.css"><div id="myscoll"></div><svg aria-hidden="true" style="position:absolute; overflow:hidden; width:0; height:0"><symbol id="icon-sun" viewBox="0 0 1024 1024"><path d="M960 512l-128 128v192h-192l-128 128-128-128H192v-192l-128-128 128-128V192h192l128-128 128 128h192v192z" fill="#FFD878" p-id="8420"></path><path d="M736 512a224 224 0 1 0-448 0 224 224 0 1 0 448 0z" fill="#FFE4A9" p-id="8421"></path><path d="M512 109.248L626.752 224H800v173.248L914.752 512 800 626.752V800h-173.248L512 914.752 397.248 800H224v-173.248L109.248 512 224 397.248V224h173.248L512 109.248M512 64l-128 128H192v192l-128 128 128 128v192h192l128 128 128-128h192v-192l128-128-128-128V192h-192l-128-128z" fill="#4D5152" p-id="8422"></path><path d="M512 320c105.888 0 192 86.112 192 192s-86.112 192-192 192-192-86.112-192-192 86.112-192 192-192m0-32a224 224 0 1 0 0 448 224 224 0 0 0 0-448z" fill="#4D5152" p-id="8423"></path></symbol><symbol id="icon-moon" viewBox="0 0 1024 1024"><path d="M611.370667 167.082667a445.013333 445.013333 0 0 1-38.4 161.834666 477.824 477.824 0 0 1-244.736 244.394667 445.141333 445.141333 0 0 1-161.109334 38.058667 85.077333 85.077333 0 0 0-65.066666 135.722666A462.08 462.08 0 1 0 747.093333 102.058667a85.077333 85.077333 0 0 0-135.722666 65.024z" fill="#FFB531" p-id="11345"></path><path d="M329.728 274.133333l35.157333-35.157333a21.333333 21.333333 0 1 0-30.165333-30.165333l-35.157333 35.157333-35.114667-35.157333a21.333333 21.333333 0 0 0-30.165333 30.165333l35.114666 35.157333-35.114666 35.157334a21.333333 21.333333 0 1 0 30.165333 30.165333l35.114667-35.157333 35.157333 35.157333a21.333333 21.333333 0 1 0 30.165333-30.165333z" fill="#030835" p-id="11346"></path></symbol></svg><!-- hexo injector head_end start --><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Zfour/Butterfly-double-row-display@1.00/cardlistpost.min.css"/>
 <style>#recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap > .tags:before {content:"\A";
   white-space: pre;}#recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap > .tags > .article-meta__separator{display:none}</style>
-<link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-footer-beautify@1.0.0/lib/runtime.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiperstyle.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css" media="defer" onload="this.media='all'"><script src="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js"></script><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-filter-gitcalendar/lib/gitcalendar.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/animate.min.css" media="print" onload="this.media='screen'"><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"></head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><script>const preloader = {
+<link rel="stylesheet" href="/css/clock.min.css" /><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiperstyle.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-footer-beautify@1.0.0/lib/runtime.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/animate.min.css" media="print" onload="this.media='screen'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css" media="defer" onload="this.media='all'"><script src="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js"></script><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-filter-gitcalendar/lib/gitcalendar.css" media="print" onload="this.media='all'"><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"></head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><script>const preloader = {
   endLoading: () => {
     document.body.style.overflow = '';
     document.getElementById('loading-box').classList.add("loaded")
@@ -186,7 +186,7 @@ window.addEventListener('load',()=> { preloader.endLoading() })
 if (false) {
   document.addEventListener('pjax:send', () => { preloader.initLoading() })
   document.addEventListener('pjax:complete', () => { preloader.endLoading() })
-}</script><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/headimage.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">4</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">17</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 清单</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/photo/"><i class="fa-fw fas fa-camera"></i><span> 照片</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/comments/"><i class="fa-fw fas fa-comment"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://imageshack.yuilexi.cn/starryskybird/cover-img-6.png')"><nav id="nav"><span id="blog-info"><a href="/" title="🪐星空鸟🪐"><span class="site-name">🪐星空鸟🪐</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><!--是否显示走索按钮的文字描述--></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 清单</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/photo/"><i class="fa-fw fas fa-camera"></i><span> 照片</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/comments/"><i class="fa-fw fas fa-comment"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">线性代数</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-04-28T03:50:02.504Z" title="发表于 2023-04-28 11:50:02">2023-04-28</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-04-28T03:58:31.565Z" title="更新于 2023-04-28 11:58:31">2023-04-28</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E5%A4%A7%E5%AD%A6%E5%AD%A6%E4%B9%A0/">大学学习</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">118</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>1分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="线性代数"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="一、矩阵及应用"><a href="#一、矩阵及应用" class="headerlink" title="一、矩阵及应用"></a>一、矩阵及应用</h1><h2 id="1-1-高斯消元法"><a href="#1-1-高斯消元法" class="headerlink" title="1.1 高斯消元法"></a>1.1 高斯消元法</h2><p>引例：</p>
+}</script><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/headimage.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">5</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">25</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 清单</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/photo/"><i class="fa-fw fas fa-camera"></i><span> 照片</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/comments/"><i class="fa-fw fas fa-comment"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://imageshack.yuilexi.cn/starryskybird/cover-img-4.png')"><nav id="nav"><span id="blog-info"><a href="/" title="🪐星空鸟🪐"><span class="site-name">🪐星空鸟🪐</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><!--是否显示走索按钮的文字描述--></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 清单</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/photo/"><i class="fa-fw fas fa-camera"></i><span> 照片</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/comments/"><i class="fa-fw fas fa-comment"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">线性代数</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-04-28T03:50:02.504Z" title="发表于 2023-04-28 11:50:02">2023-04-28</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-04-28T06:38:06.694Z" title="更新于 2023-04-28 14:38:06">2023-04-28</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E5%A4%A7%E5%AD%A6%E5%AD%A6%E4%B9%A0/">大学学习</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">2.8k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>12分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="线性代数"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="一、矩阵及应用"><a href="#一、矩阵及应用" class="headerlink" title="一、矩阵及应用"></a>一、矩阵及应用</h1><h2 id="1-1-高斯消元法"><a href="#1-1-高斯消元法" class="headerlink" title="1.1 高斯消元法"></a>1.1 高斯消元法</h2><p>引例：</p>
 <p>分析，根据题意得到的方程组的如下：</p>
 <script type="math/tex; mode=display">
 \left\{\begin{matrix}
@@ -195,7 +195,258 @@ if (false) {
 \displaystyle 3x_{1} & + & 8x_{2} & + & 2x_{3} & + & 5x_{4} & = & 5\\
 \displaystyle 10x_{1} & + & 25x_{2} & + & 20x_{3} & + & 5x_{4} & = & 12\\
 \end{matrix}\right.</script><p>在方程组中每一个方程的左端是未知量的一次齐次式，右端是常数，这样的方程组称为<font color='red'>线性方程组</font> 。</p>
-</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="http://blog.yuilexi.cn">YuiLexi</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://blog.yuilexi.cn/2023/04/28/UniversityStudy/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/">http://blog.yuilexi.cn/2023/04/28/UniversityStudy/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://blog.yuilexi.cn" target="_blank">🪐星空鸟🪐</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E5%A4%A7%E5%AD%A6/">大学</a><a class="post-meta__tags" href="/tags/%E6%95%B0%E5%AD%A6/">数学</a><a class="post-meta__tags" href="/tags/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/">线性代数基础知识</a><a class="post-meta__tags" href="/tags/%E8%80%83%E7%A0%94/">考研</a><a class="post-meta__tags" href="/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/">机器学习</a><a class="post-meta__tags" href="/tags/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/">神经网络</a></div><div class="post_share"><div class="social-share" data-image="https://imageshack.yuilexi.cn/starryskybird/cover-img-6.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div></div><div class="aside-content" id="aside-content"><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E7%9F%A9%E9%98%B5%E5%8F%8A%E5%BA%94%E7%94%A8"><span class="toc-text">一、矩阵及应用</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-1-%E9%AB%98%E6%96%AF%E6%B6%88%E5%85%83%E6%B3%95"><span class="toc-text">1.1 高斯消元法</span></a></li></ol></li></ol></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2023 By YuiLexi</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><a class="icon-V hidden" onclick="switchNightMode()" title="浅色和深色模式转换"><svg width="25" height="25" viewBox="0 0 1024 1024"><use id="modeicon" xlink:href="#icon-moon"></use></svg></a><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js"></script><div class="js-pjax"><script>if (!window.MathJax) {
+<p>线性方程组中的解的全体构成的集合称为解集合，解方程组就是求其全部解，亦即求出解集合。如果两个方程组有相同的解集合，则称他们<font color='red'>同解</font> 。</p>
+<h2 id="1-2-矩阵的定义与运算"><a href="#1-2-矩阵的定义与运算" class="headerlink" title="1.2 矩阵的定义与运算"></a>1.2 矩阵的定义与运算</h2><h3 id="1-2-1-矩阵的定义"><a href="#1-2-1-矩阵的定义" class="headerlink" title="1.2.1 矩阵的定义"></a>1.2.1 矩阵的定义</h3><p><strong>定义 1.1</strong> ：有 $ m\times n $ 个数 $\displaystyle a_{ij} (i = 1,2,\dots ,m;j=1,2,\dots ,n)$ 排成的 $m$ 行 $n$ 列的矩形数表：</p>
+<script type="math/tex; mode=display">
+\displaystyle A = \begin{vmatrix}
+ a_{11}  & a_{12} & \dots  & a_{1n}\\
+ a_{21} & a_{22} & \dots  &a_{2n} \\
+ \vdots  & \vdots  &  &\vdots  \\
+ a_{m1} & a_{m2} & \dots  &a_{mn}
+\end{vmatrix}</script><p>称为 $m$ 行 $n$ 列<font color='red'>矩阵</font> （matrix），简称 $m\times n$ 矩阵，通常用大写字母表示。元素全是实数的矩阵称为<strong>实矩阵</strong>；元素全是复数的矩阵称为<strong>复矩阵</strong>。</p>
+<h3 id="1-2-2-几种特殊矩阵"><a href="#1-2-2-几种特殊矩阵" class="headerlink" title="1.2.2 几种特殊矩阵"></a>1.2.2 几种特殊矩阵</h3><ul>
+<li><p>行矩阵，又称<font color='red'>行向量</font> 。只有一行的矩阵。</p>
+<script type="math/tex; mode=display">
+  \displaystyle A = \begin{bmatrix}
+  a_{1}   & a_{2}  & \dots  &a_{n} 
+  \end{bmatrix}</script></li>
+<li><p>列矩阵，又称<font color='red'>列向量</font> 。只有一列的矩阵。</p>
+<script type="math/tex; mode=display">
+  \displaystyle B = \begin{bmatrix}
+  b_{1}   \\ b_{2}  \\ \vdots  \\b_{m} 
+  \end{bmatrix}</script></li>
+<li><p><font color='red'>零矩阵</font>：元素全为零的矩阵。记作：<script type="math/tex">O</script> 。</p>
+</li>
+<li><p>$n$ 阶方阵：行数和列数相等的矩阵。</p>
+</li>
+<li><p><font color='red'>上三角矩阵</font>：主对角线一下的元素全为零的<strong>方阵</strong>。</p>
+<script type="math/tex; mode=display">
+  \displaystyle A = \begin{vmatrix} a_{11}  & a_{12} & \dots  & a_{1n}\\0 & a_{22} & \dots  &a_{2n} \\ \vdots  & \vdots  &  &\vdots  \\0 & 0 & \dots  &a_{nn}\end{vmatrix}</script></li>
+<li><p><font color='red'>下三角矩阵</font>：主对角线以上的元素全为零的<strong>方阵</strong>。</p>
+<script type="math/tex; mode=display">
+  \displaystyle A = \begin{vmatrix} a_{11}  & 0 & \dots  & 0\\ a_{21} & a_{22} & \dots  & 0 \\ \vdots  & \vdots  &  &\vdots  \\ a_{n1} & a_{n2} & \dots  &a_{nn}\end{vmatrix}</script></li>
+<li><p><font color='red'>对角阵</font>：主对角线以外的元素全为零的<strong>方阵</strong>。</p>
+<script type="math/tex; mode=display">
+  \displaystyle A = \begin{vmatrix} a_{11}  & 0 & \dots  & 0\\ 0 & a_{22} & \dots  & 0 \\ \vdots  & \vdots  &  &\vdots  \\ 0 & 0 & \dots  &a_{nn}\end{vmatrix}</script></li>
+<li><p><font color='red'>单位矩阵</font>：主对角线上全为 1 的 $n$ 阶对角矩阵。记作： $E_{n}$ 。</p>
+<script type="math/tex; mode=display">
+  \displaystyle A = \begin{bmatrix} 1 &  &  & \\  & 1 &  & \\  &  &  \ddots & \\  &  &  &1\end{bmatrix}</script></li>
+<li><p>系数矩阵：线性方程组所有系数所构成的矩阵，称为线性方程组的<font color='red'>系数矩阵</font>。</p>
+</li>
+<li><p>增广矩阵：由线性方程组所有系数和常数项所构成阿矩阵，称为线性方程组的<font color='red'>增广矩阵</font> ，并记作 $\displaystyle \widetilde{A} =(A,b)$ 或者 $\widetilde{A}=[A,b]$ 。</p>
+</li>
+</ul>
+<h3 id="1-2-3-矩阵的运算"><a href="#1-2-3-矩阵的运算" class="headerlink" title="1.2.3 矩阵的运算"></a>1.2.3 矩阵的运算</h3><p><strong>定义 1.2</strong> ：设有两个同型的矩阵 $\displaystyle A,B$ ，它们的<strong>和</strong>记作 $\displaystyle A+B$ 。规定</p>
+<script type="math/tex; mode=display">
+\displaystyle A+B = \begin{bmatrix} a_{11}+b_{11}   & a_{12}+b_{12} & \cdots  & a_{1n}+b_{1n}\\a_{21}+b_{21}  & a_{22}+b_{22} &  \cdots & a_{2n}+b_{2n}\\\vdots  & \vdots  & \ddots  &\vdots  \\ a_{m1}+b_{m1} & a_{m2}+b_{m2} & \dots  &a_{mn}+b_{mn}\end{bmatrix}</script><p><strong>定义 1.3</strong> ：数 $\lambda$ 与矩阵 $A$ 的乘积，简称 <strong>数乘</strong> ，记作 $\lambda A$ 。规定</p>
+<script type="math/tex; mode=display">
+\displaystyle \lambda A = \begin{bmatrix} \lambda a_{11}& \lambda a_{12} & \cdots  & \lambda a_{1n}\\\lambda a_{21} & \lambda a_{22} &  \cdots & \lambda a_{2n}\\\vdots  & \vdots  & \ddots  &\vdots  \\ \lambda a_{m1} & \lambda a_{m2}& \dots  &\lambda a_{mn}\end{bmatrix}</script><p>矩阵的<strong>加法</strong>和<strong>数乘</strong>统称为矩阵的<font color='red'>线性运算</font>。不难验证，矩阵的<strong>线性运算</strong>法则：</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">序号</th>
+<th>运算法则</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">1</td>
+<td>$\displaystyle A+B=B+A$</td>
+</tr>
+<tr>
+<td style="text-align:center">2</td>
+<td>$\displaystyle (A+B)+C=A+(B+C)$</td>
+</tr>
+<tr>
+<td style="text-align:center">3</td>
+<td>$\displaystyle A+O = A$</td>
+</tr>
+<tr>
+<td style="text-align:center">4</td>
+<td>$\displaystyle A+(-A) = O$</td>
+</tr>
+<tr>
+<td style="text-align:center">5</td>
+<td>$\displaystyle 1A= A$</td>
+</tr>
+<tr>
+<td style="text-align:center">6</td>
+<td>$\displaystyle (\lambda \mu )A= \lambda (\mu A)=\mu (\lambda A)$</td>
+</tr>
+<tr>
+<td style="text-align:center">7</td>
+<td>$\displaystyle (\lambda +\mu )A= \lambda A+\mu A$</td>
+</tr>
+<tr>
+<td style="text-align:center">8</td>
+<td>$\displaystyle \lambda (A+B) = \lambda A+\lambda B$</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>定义 1.4</strong> ：设矩阵 $\displaystyle a_{ij} (i = 1,2,\dots ,m;j=1,2,\dots ,n)$ </p>
+<script type="math/tex; mode=display">
+\displaystyle c_{ij} = \sum_{k=1}^{s} a_{ik} b_{kj}</script><p><strong>只有左边矩阵的列数等于右边矩阵的行数，两个矩阵才能相乘</strong>。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://imageshack.yuilexi.cn/University/LinearAlgebra/%E7%9F%A9%E9%98%B5%E7%9A%84%E4%B9%98%E7%A7%AF.png" alt="线代矩阵相乘"></p>
+<p> 矩阵的乘法运算法则：</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>序号</th>
+<th>运算法则</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>$\displaystyle (AB)C = A(BC)$</td>
+</tr>
+<tr>
+<td>2</td>
+<td>$\displaystyle A(B+C) = AB+AC$</td>
+</tr>
+<tr>
+<td>3</td>
+<td>$\displaystyle \lambda (AB)= (\lambda A)B=A(\lambda B)$</td>
+</tr>
+<tr>
+<td>4</td>
+<td>$\displaystyle A_{m\times n} \cdot E_{w}$</td>
+</tr>
+<tr>
+<td>5</td>
+<td>$\displaystyle A^{k} A^{l}  = A^{k+l} ,(A^{k})^{l} =A^{kl} $</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>定义 1.5</strong> ：对于变量 $\displaystyle y_{1},y_{2} ,\dots,y_{m} $ ，若它们均能由变量 $\displaystyle x_{1} ,x_{2} ,\dots  ,x_{n} $ 线性表示，即有：</p>
+<script type="math/tex; mode=display">
+\left\{\begin{matrix} y_{1}  & = & a_{11}x_{1} & + & a_{12}x_{2} & + & \cdots  & + & a_{1n}x_{n}\\  y_{2} & = & a_{21}x_{1} & + & a_{22}x_{2} & + & \cdots  & + &a_{2n}x_{n} \\  & \vdots  &  &  &  &  &  &  & \\  y_{n} & = & a_{m1}x_{1} & + & a_{m2}x_{2} & + & \dots  & + &a_{mn}x_{n}\end{matrix}\right.</script><p>则称此关系式为变量到变量的<font color='red'>线性变换</font> ，可以用矩阵乘积来表示：</p>
+<script type="math/tex; mode=display">
+y = \begin{bmatrix}y_{1}  \\y_{2} \\ \vdots \\y_{m}\end{bmatrix} = \begin{vmatrix} a_{11}  & a_{12} & \dots  & a_{1n}\\ a_{21} & a_{22} & \dots  &a_{2n} \\ \vdots  & \vdots  &  &\vdots  \\ a_{m1} & a_{m2} & \dots  &a_{mn}\end{vmatrix}\begin{bmatrix}x_{1}  \\ x_{2}\\ \vdots \\x_{n}\end{bmatrix} = Ax</script><p><strong>定义 1.6</strong> ：将矩阵 $A$ 的行换成同序列数的列而得到的矩阵，称为 $A$ 的<font color='red'>转置矩阵</font>，记作 $\displaystyle  A^{T} \text{或者} A^{‘} $ 。即：</p>
+<script type="math/tex; mode=display">
+A = \begin{bmatrix} a_{11}  &  a_{12} & \dots  &  a_{1n}\\ a_{21} &  a_{22} & \dots  &  a_{2n}\\\vdots   & \vdots  & \ddots  &\vdots  \\ a_{m1} &  a_{m2} & \dots  & a_{mn}\end{bmatrix},\quad A^{T} =\begin{bmatrix} a_{11}  &  a_{21} & \dots  &  a_{n1}\\ a_{12} &  a_{22} & \dots  &  a_{n2}\\\vdots   & \vdots  & \ddots  &\vdots  \\ a_{1m} &  a_{2m} & \dots  & a_{nm}\end{bmatrix}</script><p>如果 $n$ 阶方阵 $A$ 满足 $\displaystyle  A^{T} =A$ ，则称 $A$ 为 <font color='red'>对称矩阵</font> ；如果 $n$ 阶方阵 $A$ 满足 $\displaystyle  A^{T} =-A$ ，则称 $A$ 为 <font color='red'>反对称矩阵</font> 。</p>
+<p>转置矩阵的运算法则：</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">序号</th>
+<th>运算法则</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">1</td>
+<td>$\displaystyle  (A^{T})^{T}  = A$</td>
+</tr>
+<tr>
+<td style="text-align:center">2</td>
+<td>$\displaystyle  (A+B)^{T}  = A^{T} +B^{T} $</td>
+</tr>
+<tr>
+<td style="text-align:center">3</td>
+<td>$\displaystyle  (\lambda A)^{T}  = \lambda A^{T} $</td>
+</tr>
+<tr>
+<td style="text-align:center">4</td>
+<td>$\displaystyle  (AB)^{T}  = B^{T}  A^{T} $</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="1-3-可逆矩阵"><a href="#1-3-可逆矩阵" class="headerlink" title="1.3 可逆矩阵"></a>1.3 可逆矩阵</h2><p>我们已经介绍了矩阵的加法、减法、数乘以及乘法运算，那么矩阵有没有除法运算呢？</p>
+<h3 id="1-3-1-可逆矩阵的定义"><a href="#1-3-1-可逆矩阵的定义" class="headerlink" title="1.3.1 可逆矩阵的定义"></a>1.3.1 可逆矩阵的定义</h3><p><strong>定义 1.7</strong>：设 $A$ 为 $n$ 阶方阵，若存在 $n$ 阶方阵 $B$ ，使得 $\displaystyle AB = BA = E_{n} $ ，其中 $\displaystyle  E_{n} $ 为 $n$ 阶<strong>单位矩阵</strong>，则称 $A$ 为<font color='red'>可逆矩阵</font>（或称 $A$ 是 <strong>可逆的</strong>），并称 $B$ 是 $A$ 的逆矩阵。</p>
+<h3 id="1-3-2-可逆矩阵的性质"><a href="#1-3-2-可逆矩阵的性质" class="headerlink" title="1.3.2 可逆矩阵的性质"></a>1.3.2 可逆矩阵的性质</h3><p><strong>性质 1.1</strong> ：若矩阵 $A$ 可逆，则 $A$ 的逆矩阵唯一。</p>
+<ul>
+<li><p>证明：</p>
+<p>  ​    假设 $B、C$ 都是 $A$ 的逆矩阵，则有 $AB = BA = E$ 和 $AC = CA = E$ 。则有</p>
+<script type="math/tex; mode=display">
+  B =BE=B(AC)=(BA)C=C</script><p>  ​    因此， $A$ 的逆矩阵是唯一的。    </p>
+</li>
+</ul>
+<p><strong>性质 1.2</strong> ：若矩阵 $A$ 可逆，则 $A^{-1}$ 也是可逆的 $\displaystyle \left ( A^{-1}  \right ) ^{-1} =A$ 。</p>
+<p><strong>性质 1.3</strong> ：若矩阵 $A$ 可逆，数 $\displaystyle \lambda  \ne 0$ ，则 $\displaystyle \lambda A $ 是可逆的，且 $\displaystyle \left ( \lambda A  \right ) ^{-1}  = \frac{1}{\lambda } A^{-1} $ 。</p>
+<p><strong>性质 1.4</strong> ：若 $A、B$ 均为可逆方阵，则 $AB$ 也是可逆的，且 $\displaystyle (AB)^{-1}  = B^{-1} A^{-1} $ 。</p>
+<p><strong>性质 1.5</strong> ：若 $A$ 可逆，则 $A^{T}$ 也是可逆的，且 $\displaystyle (A^{T} )^{-1}  = (A^{-1} )^{T} $ 。</p>
+<h2 id="1-4-分块矩阵"><a href="#1-4-分块矩阵" class="headerlink" title="1.4 分块矩阵"></a>1.4 分块矩阵</h2><p>在矩阵运算中，特别是针对高阶矩阵，常常采用矩阵分块的方法将其简化为较低阶的矩阵进行计算。我们用若干条纵、横线将高阶矩阵 $A$ 分成若干个小矩阵，每一个小矩阵称为 $A$ 的子块，以子块为元素的矩阵称为 <font color='red'>分块矩阵</font> 。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://imageshack.yuilexi.cn/University/LinearAlgebra/%E5%88%86%E5%9D%97%E7%9F%A9%E9%98%B5.png" alt="分块矩阵"></p>
+<ol>
+<li><p>加法运算：与一般矩阵加法运算形式一致</p>
+</li>
+<li><p>数乘运算：与一般矩阵数乘运算形式一致</p>
+</li>
+<li><p>乘法运算：与一般矩阵乘法运算形式一致</p>
+</li>
+<li><p>分块矩阵的转置：</p>
+<script type="math/tex; mode=display">
+ \begin{align}\displaystyle 设A = \begin{bmatrix} A_{11}  &  A_{12} & \cdots  & A_{1s} \\  A_{21} &  A_{22} & \cdots  & A_{2s} \\ \vdots  & \vdots   & \ddots   & \vdots \\ A_{r1}  &  A_{r2} & \cdots  & A_{rs}\end{bmatrix},则有A^{T}  = \begin{bmatrix} A_{11}^{T}   &  A_{21}^{T}  & \cdots  & A_{r1}^{T}  \\  A_{12}^{T}  &  A_{22}^{T}  & \cdots  & A_{r2}^{T}  \\ \vdots  & \vdots   & \ddots   & \vdots \\ A_{1s}^{T}   &  A_{2s}^{T}  & \cdots  & A_{rs}^{T} \end{bmatrix}\end{align}</script></li>
+<li><p>分块对角矩阵</p>
+<script type="math/tex; mode=display">
+ \begin{align}\displaystyle A =\begin{bmatrix} A_{1}  &   &   &  \\   &  A_{2} &   &  \\   &   & \ddots   &  \\   &  &   & A_{r}\end{bmatrix}\end{align}</script><p> ​    主对角线上的子块 $\displaystyle A_{i} (i=1,2,\dots ,r)$ 均是方阵，其余子块全是零矩阵，则称 $A$ 为分块对角矩阵，记为： $\displaystyle A = diag(A_{1} ,A_{2} ,\dots ,A_{r} )$ 。</p>
+</li>
+</ol>
+<h2 id="1-5-初等变换与初等矩阵"><a href="#1-5-初等变换与初等矩阵" class="headerlink" title="1.5 初等变换与初等矩阵"></a>1.5 初等变换与初等矩阵</h2><h3 id="1-5-1-初等变换"><a href="#1-5-1-初等变换" class="headerlink" title="1.5.1 初等变换"></a>1.5.1 初等变换</h3><p><strong>定义 1.8</strong> ：下面三种变换称为 <strong>矩阵的初等行变换</strong> ：</p>
+<ol>
+<li>交换两行的位置</li>
+<li>以非零数 $k$ 乘以某行</li>
+<li>把某行的 $k$ 倍加到另一行上</li>
+</ol>
+<p>将定义 1.8 的“行”换为“列”，就得到<strong>矩阵的初等列变换</strong> 。矩阵的初等行变换与初等列变换统称为矩阵的<font color='red'>初等变换</font> 。</p>
+<p>如果矩阵<script type="math/tex">A</script> 经过有限次初等变换，得到矩阵 $B$ ，就称矩阵 $A$ 和矩阵 $B$ <strong>等价</strong>，记作：$\displaystyle A\sim B$ 。</p>
+<p><strong>矩阵的等价关系具有以下性质</strong>：</p>
+<ol>
+<li>反身性： $\displaystyle A\sim A$ </li>
+<li>对称性： $\displaystyle 若A\sim B,则B\sim A$ </li>
+<li>传递性： $\displaystyle 若A\sim B,B\sim C,则A\sim C$ </li>
+</ol>
+<p><font color='red'>行阶梯矩阵</font> 是指满足下面两个条件的矩阵：</p>
+<ol>
+<li>如果有零行（元素全为零的行），则零行位于非零行的下方；</li>
+<li>非零行的首个非零元素（亦称为基准或主元素），前面零元的个数从上往下依次增加。</li>
+</ol>
+<p>当行阶梯矩阵进一步满足：非零行的首非零元均为 1 ，且所在列的其余元素均为 0 ，则称为 <font color='red'>最简行阶梯矩阵</font>（或称<font color='red'>行最简形</font>） 。</p>
+<h3 id="1-5-2-初等矩阵"><a href="#1-5-2-初等矩阵" class="headerlink" title="1.5.2 初等矩阵"></a>1.5.2 初等矩阵</h3><p><strong>定义 1.9</strong> ： $n$ 阶单位矩阵 $E$ 经过一次初等变换所得到的矩阵称为 <font color='red'>初等矩阵</font> 或 <font color='red'>初等方阵</font> 。</p>
+<p><strong>定理 1.2</strong> ：设 $A$ 是一个 $m\times n$ 的矩阵，<strong>对 $A$ 施行一次初等行变换，其结果相当于在 $A$ 的左边乘以相应的 $m$ 阶初等矩阵</strong>；对 $A$ 施行一次初等列变换，其结果相当于在 $A$ 的右边乘以相应的 $n$ 阶初等矩阵。</p>
+<p><strong>定理 1.3</strong> ：设 $A$ 为 $n$ 阶方阵，那么下面命题等价：</p>
+<ol>
+<li>$A$ 是可逆矩阵；</li>
+<li>线性方程组 $Ax=0$ 只有零解；</li>
+<li>$A$ 可以经过有限次初等行变换化为单位矩阵；</li>
+<li>$A$ 可以表示为有限个初等矩阵的乘积。</li>
+</ol>
+<p><strong>逆矩阵的求法（方法一）</strong>：</p>
+<script type="math/tex; mode=display">
+\begin{align}\begin{bmatrix} A & \vdots   & E\end{bmatrix} &\sim  \begin{bmatrix} E & \vdots   & A^{-1} \end{bmatrix}\\\begin{bmatrix} A\\ \dots \\E\end{bmatrix} &\sim  \begin{bmatrix} E\\ \dots \\A^{-1} \end{bmatrix}\end{align}</script><p>对 $n \times 2n$ 矩阵 $\displaystyle \begin{bmatrix}A &amp; \vdots  &amp;B \end{bmatrix} $ 施行若干次初等行变化，当子块 $A$ 化为单位矩阵 $E$ 时，另一个子块 $B$ 就化为了 $A^{-1}B$ 。形式如下：</p>
+<h3 id="1-5-3-矩阵的秩"><a href="#1-5-3-矩阵的秩" class="headerlink" title="1.5.3 矩阵的秩"></a>1.5.3 矩阵的秩</h3><p><strong>定义 1.10</strong> ：设 $A$ 为 $m\times n$ 矩阵， $B$ 是与 $A$ 等价的行阶梯矩阵。若矩阵 $B$ 的非零行的个数为 $r$ ，则称矩阵 $B$ 的<font color='red'>秩</font>为 $r$ ，矩阵 $A$ 的之也为 $r$ ，记作 $\displaystyle R(A) = R(B)  = r$ 。</p>
+<p>:low_brightness:    <strong>矩阵秩的性质</strong>如下：</p>
+<ol>
+<li><p>$\displaystyle R(A) =R(A^{T} )$ ；</p>
+</li>
+<li><p>$R(A)=0\iff A=O$ ；</p>
+</li>
+<li><p>$\displaystyle 0\le R(A_{m\times n} )\le \text{min} \left \{ m,n \right \} $ ；</p>
+</li>
+<li><p>若 $A\sim B$ ，则 $\displaystyle R(A) = R(B)$ ；</p>
+</li>
+<li><p>$\displaystyle R\begin{bmatrix}A &amp; O\\O &amp; B\end{bmatrix} = R(A) +R(B)$ ；</p>
+</li>
+<li><p>$\displaystyle \text{max}\left \{ R(A),R(B) \right \}  \le R(A,B)\le R(A)+R(B)$ ；:warning::warning:</p>
+</li>
+<li><p>$\displaystyle R(A\pm B)\le R(A)+R(B)$ ；</p>
+<ul>
+<li>证明：<script type="math/tex; mode=display">
+  \begin{align}\displaystyle \begin{bmatrix} A & O\\ O &B\end{bmatrix}\sim \displaystyle \begin{bmatrix} A & O\\ A &B\end{bmatrix}\sim \displaystyle \begin{bmatrix} A & A\\ A &A+B\end{bmatrix}\end{align}</script>  ​    所以<script type="math/tex; mode=display">
+  \displaystyle R(A)+R(B) = R\begin{bmatrix} A & A\\ A &A+B\end{bmatrix}\ge R(A+B)</script>  ​    同理可证<script type="math/tex; mode=display">
+  \displaystyle R(A)+R(B)\ge R(A- B)</script>  ​    </li>
+</ul>
+</li>
+<li></li>
+</ol>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="http://blog.yuilexi.cn">YuiLexi</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://blog.yuilexi.cn/2023/04/28/UniversityStudy/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/">http://blog.yuilexi.cn/2023/04/28/UniversityStudy/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://blog.yuilexi.cn" target="_blank">🪐星空鸟🪐</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E5%A4%A7%E5%AD%A6/">大学</a><a class="post-meta__tags" href="/tags/%E6%95%B0%E5%AD%A6/">数学</a><a class="post-meta__tags" href="/tags/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/">线性代数基础知识</a><a class="post-meta__tags" href="/tags/%E8%80%83%E7%A0%94/">考研</a><a class="post-meta__tags" href="/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/">机器学习</a><a class="post-meta__tags" href="/tags/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/">神经网络</a></div><div class="post_share"><div class="social-share" data-image="https://imageshack.yuilexi.cn/starryskybird/cover-img-4.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div></div><div class="aside-content" id="aside-content"><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E7%9F%A9%E9%98%B5%E5%8F%8A%E5%BA%94%E7%94%A8"><span class="toc-text">一、矩阵及应用</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-1-%E9%AB%98%E6%96%AF%E6%B6%88%E5%85%83%E6%B3%95"><span class="toc-text">1.1 高斯消元法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-2-%E7%9F%A9%E9%98%B5%E7%9A%84%E5%AE%9A%E4%B9%89%E4%B8%8E%E8%BF%90%E7%AE%97"><span class="toc-text">1.2 矩阵的定义与运算</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-2-1-%E7%9F%A9%E9%98%B5%E7%9A%84%E5%AE%9A%E4%B9%89"><span class="toc-text">1.2.1 矩阵的定义</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-2-2-%E5%87%A0%E7%A7%8D%E7%89%B9%E6%AE%8A%E7%9F%A9%E9%98%B5"><span class="toc-text">1.2.2 几种特殊矩阵</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-2-3-%E7%9F%A9%E9%98%B5%E7%9A%84%E8%BF%90%E7%AE%97"><span class="toc-text">1.2.3 矩阵的运算</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-3-%E5%8F%AF%E9%80%86%E7%9F%A9%E9%98%B5"><span class="toc-text">1.3 可逆矩阵</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-3-1-%E5%8F%AF%E9%80%86%E7%9F%A9%E9%98%B5%E7%9A%84%E5%AE%9A%E4%B9%89"><span class="toc-text">1.3.1 可逆矩阵的定义</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-3-2-%E5%8F%AF%E9%80%86%E7%9F%A9%E9%98%B5%E7%9A%84%E6%80%A7%E8%B4%A8"><span class="toc-text">1.3.2 可逆矩阵的性质</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-4-%E5%88%86%E5%9D%97%E7%9F%A9%E9%98%B5"><span class="toc-text">1.4 分块矩阵</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-5-%E5%88%9D%E7%AD%89%E5%8F%98%E6%8D%A2%E4%B8%8E%E5%88%9D%E7%AD%89%E7%9F%A9%E9%98%B5"><span class="toc-text">1.5 初等变换与初等矩阵</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-5-1-%E5%88%9D%E7%AD%89%E5%8F%98%E6%8D%A2"><span class="toc-text">1.5.1 初等变换</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-5-2-%E5%88%9D%E7%AD%89%E7%9F%A9%E9%98%B5"><span class="toc-text">1.5.2 初等矩阵</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-5-3-%E7%9F%A9%E9%98%B5%E7%9A%84%E7%A7%A9"><span class="toc-text">1.5.3 矩阵的秩</span></a></li></ol></li></ol></li></ol></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2023 By YuiLexi</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><a class="icon-V hidden" onclick="switchNightMode()" title="浅色和深色模式转换"><svg width="25" height="25" viewBox="0 0 1024 1024"><use id="modeicon" xlink:href="#icon-moon"></use></svg></a><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js"></script><div class="js-pjax"><script>if (!window.MathJax) {
   window.MathJax = {
     tex: {
       inlineMath: [ ['$','$'], ["\\(","\\)"]],
@@ -277,6 +528,30 @@ if (false) {
     butterfly_clock_anzhiyu_injector_config();
   }
   </script><script src="https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0"></script><script data-pjax src="https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/clock.min.js"></script><script data-pjax>
+  function butterfly_swiper_injector_config(){
+    var parent_div_git = document.getElementById('recent-posts');
+    var item_html = '<div class="recent-post-item" style="height: auto;width: 100%"><div class="blog-slider swiper-container-fade swiper-container-horizontal" id="swiper_container"><div class="blog-slider__wrp swiper-wrapper" style="transition-duration: 0ms;"><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" href="2023/04/26/Programming/Csharp知识库/Csharp基础知识/" alt=""><img width="48" height="48" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://imageshack.yuilexi.cn/starryskybird/cover-img-10.png" alt="" onerror="this.src=https://unpkg.zhimg.com/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2023-04-26</span><a class="blog-slider__title" href="2023/04/26/Programming/Csharp知识库/Csharp基础知识/" alt="">C#基础知识</a><div class="blog-slider__text">C#基础知识，涵盖了注释、变量类型、基础数据类型、运算符、流程控制语句、复杂数据类型、方法、面向对象程序设计</div><a class="blog-slider__button" href="2023/04/26/Programming/Csharp知识库/Csharp基础知识/" alt="">详情   </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" href="2023/04/28/Hexo/Trouble/公式渲染问题/" alt=""><img width="48" height="48" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://imageshack.yuilexi.cn/starryskybird/cover-img-8.png" alt="" onerror="this.src=https://unpkg.zhimg.com/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2023-04-28</span><a class="blog-slider__title" href="2023/04/28/Hexo/Trouble/公式渲染问题/" alt="">Hexo博客使用MathJax公式并解决Markdown渲染冲突问题</a><div class="blog-slider__text">本文介绍了如何在Hexo博客中使用MathJax公式，并解决Markdown渲染冲突问题。</div><a class="blog-slider__button" href="2023/04/28/Hexo/Trouble/公式渲染问题/" alt="">详情   </a></div></div></div><div class="blog-slider__pagination swiper-pagination-clickable swiper-pagination-bullets"></div></div></div>';
+    console.log('已挂载butterfly_swiper')
+    parent_div_git.insertAdjacentHTML("afterbegin",item_html)
+    }
+  var elist = 'undefined'.split(',');
+  var cpage = location.pathname;
+  var epage = 'all';
+  var flag = 0;
+
+  for (var i=0;i<elist.length;i++){
+    if (cpage.includes(elist[i])){
+      flag++;
+    }
+  }
+
+  if ((epage ==='all')&&(flag == 0)){
+    butterfly_swiper_injector_config();
+  }
+  else if (epage === cpage){
+    butterfly_swiper_injector_config();
+  }
+  </script><script defer src="https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.js"></script><script defer data-pjax src="https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper_init.js"></script><script data-pjax>
   function butterfly_footer_beautify_injector_config(){
     var parent_div_git = document.getElementById('footer-wrap');
     var item_html = '<div id="workboard"></div><p id="ghbdages"><a class="github-badge" target="_blank" href="https://hexo.io/" style="margin-inline:5px" data-title="博客框架为Hexo_v6.2.0" title=""><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img.shields.io/badge/Frame-Hexo-blue?style=flat&amp;logo=hexo" alt=""/></a><a class="github-badge" target="_blank" href="https://butterfly.js.org/" style="margin-inline:5px" data-title="主题版本Butterfly_v4.3.1" title=""><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img.shields.io/badge/Theme-Butterfly-6513df?style=flat&amp;logo=bitdefender" alt=""/></a><a class="github-badge" target="_blank" href="https://vercel.com/" style="margin-inline:5px" data-title="本站托管于Vercel" title=""><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img.shields.io/badge/Hosted-Vercel-brightgreen?style=flat&amp;logo=Vercel" alt=""/></a><a class="github-badge" target="_blank" href="https://github.com/" style="margin-inline:5px" data-title="本站项目由Github托管" title=""><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img.shields.io/badge/Source-Github-d021d6?style=flat&amp;logo=GitHub" alt=""/></a><a class="github-badge" target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" style="margin-inline:5px" data-title="本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可" title=""><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img.shields.io/badge/Copyright-BY--NC--SA%204.0-d42328?style=flat&amp;logo=Claris" alt=""/></a></p>';
@@ -300,43 +575,7 @@ if (false) {
   else if (epage === cpage){
     butterfly_footer_beautify_injector_config();
   }
-  </script><script async src="https://npm.elemecdn.com/hexo-butterfly-footer-beautify@1.0.0/lib/runtime.js"></script><script data-pjax>
-  function butterfly_swiper_injector_config(){
-    var parent_div_git = document.getElementById('recent-posts');
-    var item_html = '<div class="recent-post-item" style="height: auto;width: 100%"><div class="blog-slider swiper-container-fade swiper-container-horizontal" id="swiper_container"><div class="blog-slider__wrp swiper-wrapper" style="transition-duration: 0ms;"><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" href="2023/04/26/Programming/Csharp知识库/Csharp基础知识/" alt=""><img width="48" height="48" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://imageshack.yuilexi.cn/starryskybird/cover-img-6.png" alt="" onerror="this.src=https://unpkg.zhimg.com/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2023-04-26</span><a class="blog-slider__title" href="2023/04/26/Programming/Csharp知识库/Csharp基础知识/" alt="">C#基础知识</a><div class="blog-slider__text">C#基础知识，涵盖了注释、变量类型、基础数据类型、运算符、流程控制语句、复杂数据类型、方法、面向对象程序设计</div><a class="blog-slider__button" href="2023/04/26/Programming/Csharp知识库/Csharp基础知识/" alt="">详情   </a></div></div></div><div class="blog-slider__pagination swiper-pagination-clickable swiper-pagination-bullets"></div></div></div>';
-    console.log('已挂载butterfly_swiper')
-    parent_div_git.insertAdjacentHTML("afterbegin",item_html)
-    }
-  var elist = 'undefined'.split(',');
-  var cpage = location.pathname;
-  var epage = 'all';
-  var flag = 0;
-
-  for (var i=0;i<elist.length;i++){
-    if (cpage.includes(elist[i])){
-      flag++;
-    }
-  }
-
-  if ((epage ==='all')&&(flag == 0)){
-    butterfly_swiper_injector_config();
-  }
-  else if (epage === cpage){
-    butterfly_swiper_injector_config();
-  }
-  </script><script defer src="https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.js"></script><script defer data-pjax src="https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper_init.js"></script><script async src="//at.alicdn.com/t/font_2032782_8d5kxvn09md.js"></script><script data-pjax src="https://npm.elemecdn.com/hexo-filter-gitcalendar/lib/gitcalendar.js"></script><script data-pjax>
-  function gitcalendar_injector_config(){
-      var parent_div_git = document.getElementById('gitZone');
-      var item_html = '<div class="recent-post-item" id="gitcalendarBar" style="width:100%;height:auto;padding:10px;"><style>#git_container{min-height: 280px}@media screen and (max-width:650px) {#git_container{min-height: 0px}}</style><div id="git_loading" style="width:10%;height:100%;margin:0 auto;display: block;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50" xml:space="preserve"><path fill="#d0d0d0" d="M25.251,6.461c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615V6.461z" transform="rotate(275.098 25 25)"><animatetransform attributeType="xml" attributeName="transform" type="rotate" from="0 25 25" to="360 25 25" dur="0.6s" repeatCount="indefinite"></animatetransform></path></svg><style>#git_container{display: none;}</style></div><div id="git_container"></div></div>';
-      parent_div_git.insertAdjacentHTML("afterbegin",item_html)
-      console.log('已挂载gitcalendar')
-      }
-
-    if( document.getElementById('gitZone') && (location.pathname ==='/about/'|| '/about/' ==='all')){
-        gitcalendar_injector_config()
-        GitCalendarInit("https://gitcalendar.fomal.cc/api?YuiLexi",['#e4dfd7', '#f9f4dc', '#f7e8aa', '#f7e8aa', '#f8df72', '#fcd217', '#fcc515', '#f28e16', '#fb8b05', '#d85916', '#f43e06'],'YuiLexi')
-    }
-  </script><div class="js-pjax"><script async="async">var arr = document.getElementsByClassName('recent-post-item');
+  </script><script async src="https://npm.elemecdn.com/hexo-butterfly-footer-beautify@1.0.0/lib/runtime.js"></script><div class="js-pjax"><script async="async">var arr = document.getElementsByClassName('recent-post-item');
 for(var i = 0;i<arr.length;i++){
     arr[i].classList.add('wow');
     arr[i].classList.add('animate__zoomIn');
@@ -360,4 +599,16 @@ for(var i = 0;i<arr.length;i++){
     arr[i].setAttribute('data-wow-delay', '');
     arr[i].setAttribute('data-wow-offset', '');
     arr[i].setAttribute('data-wow-iteration', '');
-  }</script></div><script defer src="https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/wow.min.js"></script><script defer src="https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/wow_init.js"></script><!-- hexo injector body_end end --></body></html>
+  }</script></div><script defer src="https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/wow.min.js"></script><script defer src="https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/wow_init.js"></script><script async src="//at.alicdn.com/t/font_2032782_8d5kxvn09md.js"></script><script data-pjax src="https://npm.elemecdn.com/hexo-filter-gitcalendar/lib/gitcalendar.js"></script><script data-pjax>
+  function gitcalendar_injector_config(){
+      var parent_div_git = document.getElementById('gitZone');
+      var item_html = '<div class="recent-post-item" id="gitcalendarBar" style="width:100%;height:auto;padding:10px;"><style>#git_container{min-height: 280px}@media screen and (max-width:650px) {#git_container{min-height: 0px}}</style><div id="git_loading" style="width:10%;height:100%;margin:0 auto;display: block;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50" xml:space="preserve"><path fill="#d0d0d0" d="M25.251,6.461c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615V6.461z" transform="rotate(275.098 25 25)"><animatetransform attributeType="xml" attributeName="transform" type="rotate" from="0 25 25" to="360 25 25" dur="0.6s" repeatCount="indefinite"></animatetransform></path></svg><style>#git_container{display: none;}</style></div><div id="git_container"></div></div>';
+      parent_div_git.insertAdjacentHTML("afterbegin",item_html)
+      console.log('已挂载gitcalendar')
+      }
+
+    if( document.getElementById('gitZone') && (location.pathname ==='/about/'|| '/about/' ==='all')){
+        gitcalendar_injector_config()
+        GitCalendarInit("https://gitcalendar.fomal.cc/api?YuiLexi",['#e4dfd7', '#f9f4dc', '#f7e8aa', '#f7e8aa', '#f8df72', '#fcd217', '#fcc515', '#f28e16', '#fb8b05', '#d85916', '#f43e06'],'YuiLexi')
+    }
+  </script><!-- hexo injector body_end end --></body></html>

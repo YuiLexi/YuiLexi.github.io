@@ -1,5 +1,37 @@
-
 /* 首页的文章封面图片大小调整，去/css/mycss.css中的第六行进行修改，在此修改不起作用 */
 .layout #recent-posts>.recent-post-item .post_cover {
     height: 200px;
+}
+
+/* 左上角标题大小修改 */
+.site-name {
+    font-size: 36px;
+}
+
+/* 顶部导航栏/顶部菜单栏 大小修改 */
+menus_items {
+    font-size: 24px;
+}
+
+
+
+/* 文章目录调整 */
+。card-widget wow animate__bounceInRight{
+    padding: 10px 10px;
+}
+.toc-content{
+    width: 264px;
+}
+.toc{
+    font-size: 10px
+}
+
+
+/* iconfont样式调整 */
+svg.icon {
+    width: 1.28em;
+    height: 1.28em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
 }

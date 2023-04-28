@@ -5,12 +5,7 @@
     --backdrop-filter: blur(5px) saturate(150%);
 }
 
-/* 左上角标题大小修改 */
-.site-name {
-    font-size: 36px;
-}
-
-
+/* 一图流具体实现 */
 /* 页脚与头图透明 */
 #footer {
     background: transparent !important;
@@ -39,7 +34,7 @@
 }
 
 
-/* 添加字体设置 */
+/* 添加字体的设置 */
 @font-face {
     /* 为载入的字体取名字(随意) */
     font-family: 'FZQL';
@@ -76,8 +71,17 @@
 }
 
 /* 这里的2是代表导航栏的第2个元素，即有子菜单的元素，可以按自己需求修改 */
-.menus_items .menus_item:nth-child(5) .menus_item_child {
+/*  2个子元素: -50px; 3个子元素: -82px */
+.menus_items .menus_item:nth-child(2) .menus_item_child {
+    left: -82px;
+}
+
+.menus_items .menus_item:nth-child(3) .menus_item_child {
     left: -85px;
+}
+
+.menus_items .menus_item:nth-child(4) .menus_item_child {
+    left: -50px;
 }
 
 
@@ -452,43 +456,36 @@ h6::before {
 /* 头像呼吸灯 */
 [data-theme="light"] .avatar-img {
     animation: huxi_light 4s ease-in-out infinite;
-  }
-  [data-theme="dark"] .avatar-img {
+}
+
+[data-theme="dark"] .avatar-img {
     animation: huxi_dark 4s ease-in-out infinite;
-  }
-  @keyframes huxi_light {
-    0% {
-      box-shadow: 0px 0px 1px 1px #ff8800;
-    }
-    
-    50% {
-      box-shadow: 0px 0px 5px 5px #ff8800;
-    }
-    100% {
-      box-shadow: 0px 0px 1px 1px #ff8800;
-    }
-  }
-  @keyframes huxi_dark {
-    0% {
-      box-shadow: 0px 0px 1px 1px #02f7e6;
-    }
-    50% {
-      box-shadow: 0px 0px 5px 5px #02f7e6;
-    }
-    100% {
-      box-shadow: 0px 0px 1px 1px #02f7e6;
-    }
-  }
-
-
-
-/* 文章目录调整 */
-。card-widget wow animate__bounceInRight{
-    padding: 10px 10px;
 }
-.toc-content{
-    width: 264px;
+
+@keyframes huxi_light {
+    0% {
+        box-shadow: 0px 0px 1px 1px #ff8800;
+    }
+
+    50% {
+        box-shadow: 0px 0px 5px 5px #ff8800;
+    }
+
+    100% {
+        box-shadow: 0px 0px 1px 1px #ff8800;
+    }
 }
-.toc{
-    font-size: 10px
+
+@keyframes huxi_dark {
+    0% {
+        box-shadow: 0px 0px 1px 1px #02f7e6;
+    }
+
+    50% {
+        box-shadow: 0px 0px 5px 5px #02f7e6;
+    }
+
+    100% {
+        box-shadow: 0px 0px 1px 1px #02f7e6;
+    }
 }

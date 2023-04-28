@@ -4,6 +4,41 @@
   
     
     <entry>
+      <title>线性代数</title>
+      <link href="/2023/04/28/UniversityStudy/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/"/>
+      <url>/2023/04/28/UniversityStudy/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/</url>
+      
+        <content type="html"><![CDATA[<h1 id="一、矩阵及应用"><a href="#一、矩阵及应用" class="headerlink" title="一、矩阵及应用"></a>一、矩阵及应用</h1><h2 id="1-1-高斯消元法"><a href="#1-1-高斯消元法" class="headerlink" title="1.1 高斯消元法"></a>1.1 高斯消元法</h2><p>引例：</p><p>分析，根据题意得到的方程组的如下：</p><script type="math/tex; mode=display">\left\{\begin{matrix}\displaystyle x_{1} & + & x_{2} & + & x_{3} & + & x_{4} & = & 1\\\displaystyle 20x_{1} & + & 16x_{2} & + & 10x_{3} & + &15 x_{4} & = & 15\\\displaystyle 3x_{1} & + & 8x_{2} & + & 2x_{3} & + & 5x_{4} & = & 5\\\displaystyle 10x_{1} & + & 25x_{2} & + & 20x_{3} & + & 5x_{4} & = & 12\\\end{matrix}\right.</script><p>在方程组中每一个方程的左端是未知量的一次齐次式，右端是常数，这样的方程组称为<font color='red'>线性方程组</font> 。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 大学学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 大学 </tag>
+            
+            <tag> 数学 </tag>
+            
+            <tag> 线性代数基础知识 </tag>
+            
+            <tag> 考研 </tag>
+            
+            <tag> 机器学习 </tag>
+            
+            <tag> 神经网络 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Java基础知识</title>
       <link href="/2023/04/28/Programming/Java%E7%9F%A5%E8%AF%86%E5%BA%93/Java%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
       <url>/2023/04/28/Programming/Java%E7%9F%A5%E8%AF%86%E5%BA%93/Java%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</url>

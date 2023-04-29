@@ -16,13 +16,15 @@ menus_items {
 
 
 /* 文章目录调整 */
-。card-widget wow animate__bounceInRight{
+。card-widget wow animate__bounceInRight {
     padding: 10px 10px;
 }
-.toc-content{
+
+.toc-content {
     width: 264px;
 }
-.toc{
+
+.toc {
     font-size: 10px
 }
 
@@ -36,3 +38,12 @@ svg.icon {
     overflow: hidden;
 }
 
+/* 数学内联公式水平居中显示 */
+span.mathjax-overflow {
+    vertical-align: middle;
+}
+
+/* 数学内联公式取消横向滚动条 */
+.mathjax-overflow {
+    overflow-x: hidden;
+}

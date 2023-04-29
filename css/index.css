@@ -5091,14 +5091,14 @@ span.mathjax-overflow {
 }
 @media screen and (max-width: 800px) {
   #web_bg {
-    background: url(https://imageshack.yuilexi.cn/starryskybird/background.png) !important;
+    background: url(https://imageshack.yuilexi.cn/starryskybird/background-mobile.png) !important;
     background-attachment: local !important;
     background-position: center !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
   }
   [data-theme="dark"] #web_bg {
-    background: url(https://imageshack.yuilexi.cn/starryskybird/background-dark.png) !important;
+    background: url(https://imageshack.yuilexi.cn/starryskybird/background-dark-mobile.png) !important;
     background-attachment: local !important;
     background-position: center !important;
     background-size: cover !important;

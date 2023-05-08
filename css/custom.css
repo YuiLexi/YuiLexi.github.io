@@ -77,10 +77,14 @@
 }
 
 .menus_items .menus_item:nth-child(3) .menus_item_child {
-    left: -85px;
+    left: 10px;
 }
 
 .menus_items .menus_item:nth-child(4) .menus_item_child {
+    left: -85px;
+}
+
+.menus_items .menus_item:nth-child(5) .menus_item_child {
     left: -50px;
 }
 

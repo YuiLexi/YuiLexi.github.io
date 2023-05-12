@@ -4,6 +4,37 @@
   
     
     <entry>
+      <title>Unity组件-Transform</title>
+      <link href="/2023/05/11/Unity3D/Unity%E7%BB%84%E4%BB%B6/%E7%BB%84%E4%BB%B6-Transforms/"/>
+      <url>/2023/05/11/Unity3D/Unity%E7%BB%84%E4%BB%B6/%E7%BB%84%E4%BB%B6-Transforms/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Transform-组件"><a href="#Transform-组件" class="headerlink" title="Transform-组件"></a>Transform-组件</h1><p><strong><code>Transform</code></strong> 用于存储<strong>游戏对象</strong>的位置、旋转、缩放和父级状态，因此非常重要。游戏对象将始终附加 <code>Transform</code> 组件。如果没有变换组件，则无法移除变换或创建游戏对象。</p><h2 id="Transform组件"><a href="#Transform组件" class="headerlink" title="Transform组件"></a><code>Transform</code>组件</h2><p><code>Transform</code> 组件确定对象在场景中的<strong>位置和姿态</strong>。<strong>每个游戏对象都有一个变换</strong>。</p><p><img src="http://imageshack.yuilexi.cn/Unity3D/Unity组件/组件-TransformTransform组件视图.png" alt="Transform组件视图"></p><h2 id="属性"><a href="#属性" class="headerlink" title="属性"></a>属性</h2><div class="table-container"><table><thead><tr><th style="text-align:center">属性</th><th style="text-align:left">功能</th></tr></thead><tbody><tr><td style="text-align:center"><strong>Position</strong></td><td style="text-align:left">相对于父级（本地坐标系），在 X、Y 和 Z 坐标中的位置。</td></tr><tr><td style="text-align:center"><strong>Rotation</strong></td><td style="text-align:left">相对于父级，围绕 X、Y 和 Z 轴的旋转，以度为单位。</td></tr><tr><td style="text-align:center"><strong>Scale</strong></td><td style="text-align:left">沿 X、Y 和 Z 轴的变换比例。值“1”是原始大小（导入对象的大小）。选择值旁边的链接图标以切换比例缩放。比例缩放按比例调整刻度值。</td></tr></tbody></table></div><blockquote><p>注意：每个<code>Transform</code>组件面板中的<strong>Position</strong>，指的是相对于父级的位置，一般游戏对象在场景中的位置是世界坐标，因此需要将子级的<strong>Position</strong>以及对应的每一级父级的<strong>Position</strong>相加，才能得到<strong>世界坐标</strong>。而脚本中的<code>Transform</code>对象下的<strong>Position</strong>属性，就是世界坐标。这一点很重要</p><p>为了说明这一点，请看下面例子。</p><p>首先设置父级坐标为 <code>(-2,0,0)</code> ，子级坐标 <code>(0,0,0)</code> ，然后打印出子级 <code>Transform</code> 脚本对象的<strong>Position</strong>属性。</p><p><img src="http://imageshack.yuilexi.cn/Unity3D/Unity组件/组件-Transform父级坐标.png" alt="父级坐标"></p><p><img src="http://imageshack.yuilexi.cn/Unity3D/Unity组件/组件-Transform子级坐标.png" alt="子级坐标"></p><p>将下面测试脚本挂载到子级上</p><figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">using</span> UnityEngine;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title">Test</span> : <span class="title">MonoBehaviour</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">// Start is called before the first frame update</span></span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">Start</span>()</span></span><br><span class="line">    &#123;</span><br><span class="line">        Debug.Log(<span class="keyword">this</span>.transform.position);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>打印的结果为：</p><p><img src="http://imageshack.yuilexi.cn/Unity3D/Unity组件/组件-Transform输出的结果.png" alt="输出的结果"></p></blockquote><h2 id="编辑转换"><a href="#编辑转换" class="headerlink" title="编辑转换"></a>编辑转换</h2><p><code>Transform</code> 在 X、Y 和 Z 轴的 3D 空间中或在 X 和 Y 轴的 2D 空间中进行操作。在 Unity 中，这些轴分别由红色、绿色和蓝色表示。</p><p><img src="http://imageshack.yuilexi.cn/Unity3D/Unity组件/组件-Transform左手坐标系.png" alt="左手坐标系"></p><p>在场景中，您可以使用移动、旋转和缩放工具修改<code>Transform</code>。这些工具位于 Unity 编辑器的左上角。</p><p><img src="http://imageshack.yuilexi.cn/Unity3D/Unity组件/组件-Transform转换-平移.png" alt="转换"></p><h2 id="Parenting——父级"><a href="#Parenting——父级" class="headerlink" title="Parenting——父级"></a>Parenting——父级</h2><p><code>Parenting</code> 是使用 Unity 时要了解的最重要的概念之一。当游戏对象是另一个游戏对象的<strong>父级</strong>，<strong>子游戏对象将完全按照其父游戏对象的方式移动、旋转和缩放</strong>。</p><p>可以把 <code>Parenting</code> 想象成手臂和身体之间的关系：每当你的身体移动时，你的手臂也会随之移动。子对象也可以有自己的子对象，依此类推。所以你的手可以被视为你手臂的“孩子”，然后每只手都有几根手指，等等。任何对象都可以有多个子对象，但只能有一个父对象。这些多层次的父子关系构成了转换<em>层次结构</em>。</p><p>层次结构最顶端的对象（即层次结构中唯一没有父对象的对象）称为<strong>根</strong>。</p><p>可以通过将<strong>层次结构视图中</strong>的任何游戏对象拖动到另一个游戏对象上来创建父级。这将在两个游戏对象之间创建父子关系。</p><h2 id="使用-Transform-的小提示"><a href="#使用-Transform-的小提示" class="headerlink" title="使用 Transform 的小提示"></a>使用 <code>Transform</code> 的小提示</h2><ul><li>在父级转换时，在添加子级之前将父级的位置设置为 <0，0，0> 非常有用。这意味着子项的本地坐标将与全局坐标相同，从而更容易确保子项处于正确的位置。</li><li>如果您正在使用<strong>刚体</strong>，对于物理仿真，请务必阅读<a href="https://docs.unity3d.com/Manual/class-Rigidbody.html">刚体</a>组件参考页面上的 Scale 属性。</li><li>您可以从首选项（<strong>菜单：Unity &gt;首选项</strong>）更改变换轴（和其他 UI 元素）的颜色，然后选择<strong>颜色和键</strong>面板）。</li><li>更改比例会影响子变换的位置。例如，将父项缩放为 （0，0，0） 会将所有子项定位为相对于父项的 （0，0，0）。</li></ul><h1 id="Transform——脚本"><a href="#Transform——脚本" class="headerlink" title="Transform——脚本"></a>Transform——脚本</h1><h3 id="描述"><a href="#描述" class="headerlink" title="描述"></a>描述</h3><p>对象的位置、旋转和缩放。场景中的每个对象都有一个变换。 它用于存储和操作对象的位置，旋转和缩放。 每个变换都可以有一个父级，它允许您分层应用位置、旋转和缩放。这是在“层次结构”窗格中看到的层次结构。 它们还支持<strong>枚举器</strong>，因此您可以使用以下方法循环遍历子项：</p><figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">using</span> UnityEngine;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title">Example</span> : <span class="title">MonoBehaviour</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">Start</span>()</span></span><br><span class="line">    &#123;</span><br><span class="line">        Transform transform = gameObject.GetComponent&lt;Transform&gt;();</span><br><span class="line">        <span class="keyword">foreach</span> (Transform child <span class="keyword">in</span> transform)</span><br><span class="line">        &#123;</span><br><span class="line">            child.position += Vector3.up * <span class="number">10.0f</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="常用属性"><a href="#常用属性" class="headerlink" title="常用属性"></a>常用属性</h2><p>下面只罗列在游戏开发中，最常用的属性，完整属性列表请参看<a href="https://docs.unity3d.com/ScriptReference/Transform.html">Unity - Scripting API: Transform (unity3d.com)</a>官方文档</p><div class="table-container"><table><thead><tr><th><a href="https://docs.unity3d.com/ScriptReference/Transform-childCount.html">childCount</a></th><th>父级 <code>Transform</code> 有的子级数。（注意：这里是一级子级数）。</th></tr></thead><tbody><tr><td><a href="https://docs.unity3d.com/ScriptReference/Transform-localPosition.html">localPosition</a></td><td>相对于父级的位置。</td></tr><tr><td><a href="https://docs.unity3d.com/ScriptReference/Transform-localRotation.html">localRotation</a></td><td>相对于父级的旋转。</td></tr><tr><td><a href="https://docs.unity3d.com/ScriptReference/Transform-localScale.html">localScale</a></td><td>相对于父级的缩放。</td></tr><tr><td><a href="https://docs.unity3d.com/ScriptReference/Transform-parent.html">parent</a></td><td>当前 <code>Transform</code> 的父级的 <code>Transform</code> 对象。</td></tr><tr><td><a href="https://docs.unity3d.com/ScriptReference/Transform-position.html">position</a></td><td>世界坐标空间位置。</td></tr><tr><td><a href="https://docs.unity3d.com/ScriptReference/Transform-rotation.html">rotation</a></td><td>一个四元数，用于存储在世界空间中的旋转。</td></tr></tbody></table></div><h2 id="常用公共方法"><a href="#常用公共方法" class="headerlink" title="常用公共方法"></a>常用公共方法</h2><p>下面只罗列在游戏开发中，最常用的公共方法，完整公共方法列表请参看<a href="https://docs.unity3d.com/ScriptReference/Transform.html">Unity - Scripting API: Transform (unity3d.com)</a>官方文档</p><div class="table-container"><table><thead><tr><th><a href="https://docs.unity3d.com/ScriptReference/Transform.DetachChildren.html">DetachChildren</a></th><th>取消所有孩子的父母。如果要在不销毁子层次结构的情况下销毁层次结构的根，则很有用。</th></tr></thead><tbody><tr><td><a href="https://docs.unity3d.com/ScriptReference/Transform.Find.html">Find</a></td><td><strong>按名称查找</strong>子项并将其返回。注意：只会在一级子级中查找。</td></tr><tr><td><a href="https://docs.unity3d.com/ScriptReference/Transform.GetChild.html">GetChild</a></td><td>按索引返回转换子项。</td></tr><tr><td><a href="https://docs.unity3d.com/ScriptReference/Transform.IsChildOf.html">IsChildOf</a></td><td>返回一个布尔值，该值指示转换是否为给定转换的子级。 如果此转换是子转换，则为真，深度子项（子项的子项）或与此转换相同，否则为假。</td></tr><tr><td><a href="https://docs.unity3d.com/ScriptReference/Transform.Rotate.html">Rotate</a></td><td>使用 Transform.Rotate 以多种方式旋转游戏对象。旋转通常以欧拉角而不是四元数的形式提供。</td></tr><tr><td><a href="https://docs.unity3d.com/ScriptReference/Transform.RotateAround.html">RotateAround</a></td><td>围绕在世界坐标中通过点的轴按角度旋转变换。</td></tr><tr><td><a href="https://docs.unity3d.com/ScriptReference/Transform.SetParent.html"><strong>SetParent</strong></a></td><td><strong>设置转换的父级</strong>。</td></tr><tr><td><a href="https://docs.unity3d.com/ScriptReference/Transform.Translate.html">Translate</a></td><td>沿平移方向和距离移动变换。（世界坐标的封装）</td></tr></tbody></table></div><h3 id="Find-方法"><a href="#Find-方法" class="headerlink" title="Find() 方法"></a><code>Find()</code> 方法</h3><p>下面进行测试：</p><p><img src="http://imageshack.yuilexi.cn/Unity3D/Unity组件/组件-TransformFind方法测试-1.png" alt="Find方法测试-1"></p><p>挂载的脚本如下：</p><figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">using</span> UnityEngine;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title">Test</span> : <span class="title">MonoBehaviour</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">// Start is called before the first frame update</span></span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">Start</span>()</span></span><br><span class="line">    &#123;</span><br><span class="line">        Transform transform = gameObject.GetComponent&lt;Transform&gt;();</span><br><span class="line">        Transform transform1 = transform.Find(<span class="string">&quot;www&quot;</span>);</span><br><span class="line">        <span class="keyword">if</span> (transform1 == <span class="literal">null</span>)</span><br><span class="line">        &#123;</span><br><span class="line">            Debug.Log(<span class="string">&quot;null&quot;</span>);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">        &#123;</span><br><span class="line">            Debug.Log(transform1.gameObject.name);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>最后的控制台输出的结果为：</p><p><img src="http://imageshack.yuilexi.cn/Unity3D/Unity组件/组件-TransformFind方法测试-结果.png" alt="Find方法测试-结果"></p><blockquote><p>总结：上面的结果可以看出， <code>Find()</code> 方法，并不能找到二级子级</p></blockquote><h3 id="SetParent（）-方法"><a href="#SetParent（）-方法" class="headerlink" title="SetParent（） 方法"></a><code>SetParent（）</code> 方法</h3><p>声明</p><figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">SetParent</span>(<span class="params">Transform parent</span>)</span>;</span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">SetParent</span>(<span class="params">Transform parent, <span class="built_in">bool</span> worldPositionStays</span>)</span>;</span><br></pre></td></tr></table></figure><p>说明：</p><ul><li><code>parent</code> ：要使用的父转换。</li><li><code>worldPositionStays</code><ul><li><code>true</code> ：修改相对于父级的位置、缩放和旋转，<strong>以使对象保持与以前相同的世界空间位置、旋转和缩放</strong>。</li><li><code>false</code> ：设置相对于父级的位置、缩放和旋转，为默认值。（此举可能会改变世界坐标系空间的状态）</li></ul></li></ul><h1 id="README"><a href="#README" class="headerlink" title="README"></a>README</h1><h2 id="更新日志"><a href="#更新日志" class="headerlink" title="更新日志"></a>更新日志</h2><details class="folding-tag" ><summary> 更新日志 </summary>              <div class='content'>              <div class="timeline orange"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>更新日志</p></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>2023-5-12</p></div></div><div class='timeline-item-content'><ol><li>添加了 <code>Find()</code> 方法的测试</li></ol></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>2023-5-11</p></div></div><div class='timeline-item-content'><ol><li>创建文档，介绍 Transform 组件的使用</li></ol></div></div></div>              </div>            </details>]]></content>
+      
+      
+      <categories>
+          
+          <category> Unity3D </category>
+          
+          <category> Unity组件 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Unity3D </tag>
+            
+            <tag> Unity组件 </tag>
+            
+            <tag> Transform变换 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title></title>
       <link href="/2023/05/08/Unity3D/Unity%E5%BC%95%E6%93%8E/%E7%93%A6%E7%89%87%E5%9C%B0%E5%9B%BE/%E4%BD%BF%E7%94%A8%E7%93%A6%E7%89%87%E5%AD%98%E5%9C%A8%E7%9A%84%E9%97%AE%E9%A2%98/"/>
       <url>/2023/05/08/Unity3D/Unity%E5%BC%95%E6%93%8E/%E7%93%A6%E7%89%87%E5%9C%B0%E5%9B%BE/%E4%BD%BF%E7%94%A8%E7%93%A6%E7%89%87%E5%AD%98%E5%9C%A8%E7%9A%84%E9%97%AE%E9%A2%98/</url>
@@ -102,9 +133,9 @@
       
         <tags>
             
-            <tag> Csharp </tag>
-            
             <tag> Unity3D </tag>
+            
+            <tag> Csharp </tag>
             
             <tag> 脚本开发 </tag>
             
@@ -143,9 +174,9 @@
       
         <tags>
             
-            <tag> Csharp </tag>
-            
             <tag> Unity3D </tag>
+            
+            <tag> Csharp </tag>
             
             <tag> 脚本开发 </tag>
             
@@ -175,9 +206,9 @@
           
           <category> Unity3D </category>
           
-          <category> Csharp </category>
-          
           <category> 功能框架 </category>
+          
+          <category> Csharp </category>
           
           <category> GUI </category>
           
@@ -186,9 +217,9 @@
       
         <tags>
             
-            <tag> Csharp </tag>
-            
             <tag> Unity3D </tag>
+            
+            <tag> Csharp </tag>
             
             <tag> 功能框架 </tag>
             
@@ -229,11 +260,11 @@
       
         <tags>
             
+            <tag> Unity3D </tag>
+            
             <tag> Csharp </tag>
             
             <tag> 程序设计 </tag>
-            
-            <tag> Unity3D </tag>
             
             <tag> Csharp基础 </tag>
             
@@ -270,9 +301,9 @@
       
         <tags>
             
-            <tag> 设计模式 </tag>
-            
             <tag> Csharp </tag>
+            
+            <tag> 设计模式 </tag>
             
             <tag> 程序设计 </tag>
             
@@ -294,9 +325,9 @@
           
           <category> 大学学习 </category>
           
-          <category> 考研 </category>
-          
           <category> C语言 </category>
+          
+          <category> 考研 </category>
           
           <category> 数据结构 </category>
           
@@ -305,11 +336,11 @@
       
         <tags>
             
+            <tag> 考研 </tag>
+            
             <tag> C语言 </tag>
             
             <tag> 数据结构 </tag>
-            
-            <tag> 考研 </tag>
             
             <tag> 大学学习 </tag>
             
@@ -377,9 +408,9 @@
       
         <tags>
             
-            <tag> Csharp </tag>
-            
             <tag> Unity3D </tag>
+            
+            <tag> Csharp </tag>
             
             <tag> 脚本开发 </tag>
             
@@ -420,11 +451,11 @@
       
         <tags>
             
-            <tag> 设计模式 </tag>
+            <tag> Unity3D </tag>
             
             <tag> Csharp </tag>
             
-            <tag> Unity3D </tag>
+            <tag> 设计模式 </tag>
             
             <tag> 单列模式 </tag>
             
@@ -455,13 +486,13 @@
       
         <tags>
             
-            <tag> 考研 </tag>
-            
             <tag> 大学 </tag>
             
             <tag> 数学 </tag>
             
             <tag> 线性代数基础知识 </tag>
+            
+            <tag> 考研 </tag>
             
             <tag> 机器学习 </tag>
             
@@ -537,9 +568,9 @@
             
             <tag> Csharp </tag>
             
-            <tag> 程序设计 </tag>
-            
             <tag> 游戏开发 </tag>
+            
+            <tag> 程序设计 </tag>
             
             <tag> 教程 </tag>
             
@@ -613,15 +644,15 @@
             
             <tag> 设计模式 </tag>
             
-            <tag> 程序设计 </tag>
-            
             <tag> 游戏开发 </tag>
+            
+            <tag> 程序设计 </tag>
             
             <tag> 机器学习 </tag>
             
-            <tag> 数据分析 </tag>
-            
             <tag> Web开发 </tag>
+            
+            <tag> 数据分析 </tag>
             
             <tag> Python </tag>
             

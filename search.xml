@@ -4,6 +4,49 @@
   
     
     <entry>
+      <title>Unity之UGUI框架(优化版)</title>
+      <link href="/2023/05/16/Unity3D/%E5%8A%9F%E8%83%BD%E6%A1%86%E6%9E%B6/UGUI%E6%A1%86%E6%9E%B6-%E4%BC%98%E5%8C%96%E7%89%88/"/>
+      <url>/2023/05/16/Unity3D/%E5%8A%9F%E8%83%BD%E6%A1%86%E6%9E%B6/UGUI%E6%A1%86%E6%9E%B6-%E4%BC%98%E5%8C%96%E7%89%88/</url>
+      
+        <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><blockquote><p>此文章主要是针对之前的UGUI框架，进行优化和改进。</p><ul><li><a href="https://blog.yuilexi.cn/2023/05/02/Unity3D/功能框架/UGUI框架/">Unity之UGUI框架 | 🪐星空鸟🪐 (yuilexi.cn)</a></li><li></li></ul></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> Unity3D </category>
+          
+          <category> Csharp </category>
+          
+          <category> 功能框架 </category>
+          
+          <category> GUI </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Csharp </tag>
+            
+            <tag> Unity3D </tag>
+            
+            <tag> 功能框架 </tag>
+            
+            <tag> GUI </tag>
+            
+            <tag> UGUI </tag>
+            
+            <tag> Json </tag>
+            
+            <tag> Litjson </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>高等数学 同济第七版</title>
       <link href="/2023/05/13/UniversityStudy/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6_%E5%90%8C%E6%B5%8E%E7%AC%AC%E4%B8%83%E7%89%88/"/>
       <url>/2023/05/13/UniversityStudy/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6_%E5%90%8C%E6%B5%8E%E7%AC%AC%E4%B8%83%E7%89%88/</url>
@@ -22,9 +65,9 @@
       
         <tags>
             
-            <tag> 数学 </tag>
-            
             <tag> 大学学习 </tag>
+            
+            <tag> 数学 </tag>
             
             <tag> 高等数学 </tag>
             
@@ -328,11 +371,11 @@
       
         <tags>
             
-            <tag> 考研 </tag>
-            
             <tag> C语言 </tag>
             
             <tag> 数据结构 </tag>
+            
+            <tag> 考研 </tag>
             
             <tag> 大学学习 </tag>
             
@@ -478,13 +521,13 @@
       
         <tags>
             
+            <tag> 考研 </tag>
+            
             <tag> 大学 </tag>
             
             <tag> 数学 </tag>
             
             <tag> 线性代数基础知识 </tag>
-            
-            <tag> 考研 </tag>
             
             <tag> 机器学习 </tag>
             
@@ -595,9 +638,9 @@
       
         <tags>
             
-            <tag> 数据结构 </tag>
-            
             <tag> 程序设计 </tag>
+            
+            <tag> 数据结构 </tag>
             
             <tag> C语言基础 </tag>
             
@@ -634,13 +677,13 @@
       
         <tags>
             
-            <tag> 机器学习 </tag>
-            
             <tag> 设计模式 </tag>
             
             <tag> 程序设计 </tag>
             
             <tag> 游戏开发 </tag>
+            
+            <tag> 机器学习 </tag>
             
             <tag> 数据分析 </tag>
             

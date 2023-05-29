@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://blog.yuilexi.cn/2023/05/26/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6/Git/</loc>
+    <lastmod>2023-05-29</lastmod>
+  </url>
+  <url>
     <loc>http://blog.yuilexi.cn/2023/04/30/%E5%A4%A7%E5%AD%A6%E5%AD%A6%E4%B9%A0/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</loc>
     <lastmod>2023-05-28</lastmod>
   </url>
@@ -18,10 +22,6 @@
   </url>
   <url>
     <loc>http://blog.yuilexi.cn/2023/05/17/%E7%BC%96%E7%A8%8B/Java%E7%9F%A5%E8%AF%86%E5%BA%93/Java%E7%AE%80%E5%8D%95%E7%A8%8B%E5%BA%8F/%E6%A8%A1%E6%8B%9F%E6%88%98%E4%BA%89/</loc>
-    <lastmod>2023-05-27</lastmod>
-  </url>
-  <url>
-    <loc>http://blog.yuilexi.cn/2023/05/26/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6/Git/</loc>
     <lastmod>2023-05-27</lastmod>
   </url>
   <url>

@@ -38,6 +38,7 @@ svg.icon {
     overflow: hidden;
 }
 
+/* -----------------------------------数学公式------------------------------------- */
 /* 数学内联公式水平居中显示 */
 span.mathjax-overflow {
     vertical-align: middle;
@@ -47,3 +48,18 @@ span.mathjax-overflow {
 .mathjax-overflow {
     overflow-x: hidden;
 }
+
+/* -----------------------------------数学公式------------------------------------- */
+
+
+/* --------------------图片懒加载渐入-------------------------- */
+img.lazyload {
+    transition: filter 0.375s ease 0s;
+}
+
+img.lazyload:not(.loaded) {
+    -webkit-filter: blur(8px);
+    filter: blur(8px);
+}
+
+/* --------------------图片懒加载渐入-------------------------- */

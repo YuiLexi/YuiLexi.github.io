@@ -1,0 +1,34 @@
+{
+    "output": "./static",
+
+    "title" : "Ruins Land",
+
+    "author" : "YuiLexi",
+
+    "description" : "这是个人独立游戏《特拉之地》的开发说明文档",
+
+    "language" : "zh-hans",
+
+    "links" : {
+        "sidebar" : {
+            "个人博客" : "https://blog.yuilexi.cn",
+            "GitHub" : "https://github.com/YuiLexi"
+        }
+    },
+
+    "plugins": [ 
+        "katex",
+        "hide-element",
+        "back-to-top-button",
+        "chapter-fold",
+        "code",
+        "splitter",
+        "pageview-count"
+    ],
+
+    "pluginsConfig": {
+        "hide-element": {
+            "elements": [".gitbook-link"]
+        }
+    }
+  }

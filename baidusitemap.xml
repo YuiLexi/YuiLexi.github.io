@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://blog.yuilexi.cn/2023/05/16/Unity3D/%E5%8A%9F%E8%83%BD%E6%A1%86%E6%9E%B6/UGUI%E6%A1%86%E6%9E%B6-%E4%BC%98%E5%8C%96%E7%89%88/</loc>
+    <lastmod>2023-06-09</lastmod>
+  </url>
+  <url>
     <loc>http://blog.yuilexi.cn/2023/05/19/%E7%BC%96%E7%A8%8B/Csharp%E7%9F%A5%E8%AF%86%E5%BA%93/Csharp%E5%9F%BA%E7%A1%80/Csharp%E8%A7%84%E8%8C%83/</loc>
     <lastmod>2023-06-09</lastmod>
   </url>
@@ -78,10 +82,6 @@
   </url>
   <url>
     <loc>http://blog.yuilexi.cn/2023/05/02/Unity3D/%E5%8A%9F%E8%83%BD%E6%A1%86%E6%9E%B6/UGUI%E6%A1%86%E6%9E%B6/</loc>
-    <lastmod>2023-05-19</lastmod>
-  </url>
-  <url>
-    <loc>http://blog.yuilexi.cn/2023/05/16/Unity3D/%E5%8A%9F%E8%83%BD%E6%A1%86%E6%9E%B6/UGUI%E6%A1%86%E6%9E%B6-%E4%BC%98%E5%8C%96%E7%89%88/</loc>
     <lastmod>2023-05-19</lastmod>
   </url>
   <url>

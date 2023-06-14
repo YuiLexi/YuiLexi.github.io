@@ -4,6 +4,37 @@
   
     
     <entry>
+      <title>规则瓦片</title>
+      <link href="/2023/06/14/Unity3D/Unity%E5%BC%95%E6%93%8E/%E7%93%A6%E7%89%87%E5%9C%B0%E5%9B%BE/%E8%A7%84%E5%88%99%E7%93%A6%E7%89%87/"/>
+      <url>/2023/06/14/Unity3D/Unity%E5%BC%95%E6%93%8E/%E7%93%A6%E7%89%87%E5%9C%B0%E5%9B%BE/%E8%A7%84%E5%88%99%E7%93%A6%E7%89%87/</url>
+      
+        <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><h1 id="一、规则瓦片"><a href="#一、规则瓦片" class="headerlink" title="一、规则瓦片"></a>一、规则瓦片</h1><h2 id="1-1-规则瓦片的创建"><a href="#1-1-规则瓦片的创建" class="headerlink" title="1.1 规则瓦片的创建"></a>1.1 规则瓦片的创建</h2><p><img src="https://imageshack.yuilexi.cn/Unity3D/Unity引擎/瓦片地图/规则瓦片/规则瓦片的创建.png" alt="规则瓦片的创建.png"></p><h1 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h1><h2 id="更新日志"><a href="#更新日志" class="headerlink" title="更新日志"></a>更新日志</h2><details class="folding-tag" ><summary> 更新日志 </summary>              <div class='content'>              <div class="timeline orange"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>更新日志</p></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>2023-6-14</p></div></div><div class='timeline-item-content'><ol><li>创建文档</li></ol></div></div></div>              </div>            </details>]]></content>
+      
+      
+      <categories>
+          
+          <category> Unity3D </category>
+          
+          <category> Unity引擎 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Unity3D </tag>
+            
+            <tag> 游戏开发 </tag>
+            
+            <tag> Unity引擎 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>内存管理</title>
       <link href="/2023/06/01/%E7%BC%96%E7%A8%8B/Mis/%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86/"/>
       <url>/2023/06/01/%E7%BC%96%E7%A8%8B/Mis/%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86/</url>
@@ -388,9 +419,9 @@
       
         <tags>
             
-            <tag> 数学 </tag>
-            
             <tag> 大学学习 </tag>
+            
+            <tag> 数学 </tag>
             
             <tag> 高等数学 </tag>
             
@@ -694,11 +725,11 @@
       
         <tags>
             
-            <tag> 考研 </tag>
-            
             <tag> C语言 </tag>
             
             <tag> 数据结构 </tag>
+            
+            <tag> 考研 </tag>
             
             <tag> 大学学习 </tag>
             
@@ -844,13 +875,13 @@
       
         <tags>
             
+            <tag> 考研 </tag>
+            
             <tag> 大学 </tag>
             
             <tag> 数学 </tag>
             
             <tag> 线性代数基础知识 </tag>
-            
-            <tag> 考研 </tag>
             
             <tag> 机器学习 </tag>
             

@@ -125,11 +125,11 @@
             
             <tag> 版本控制 </tag>
             
+            <tag> Github </tag>
+            
             <tag> Git </tag>
             
             <tag> 团队协作 </tag>
-            
-            <tag> Github </tag>
             
         </tags>
       
@@ -232,11 +232,11 @@
             
             <tag> Git </tag>
             
+            <tag> 团队协作 </tag>
+            
             <tag> 分布式版本控制 </tag>
             
             <tag> GitHub </tag>
-            
-            <tag> 团队协作 </tag>
             
         </tags>
       
@@ -295,9 +295,9 @@
           
           <category> Unity3D </category>
           
-          <category> CSharp </category>
+          <category> Csharp </category>
           
-          <category> CSharp基础 </category>
+          <category> Csharp基础 </category>
           
           <category> Unity3D基础 </category>
           
@@ -308,13 +308,13 @@
             
             <tag> Unity3D </tag>
             
-            <tag> CSharp </tag>
+            <tag> Csharp </tag>
             
-            <tag> CSharp基础 </tag>
+            <tag> Csharp基础 </tag>
             
             <tag> Unity3D基础 </tag>
             
-            <tag> CSharp规范 </tag>
+            <tag> Csharp规范 </tag>
             
         </tags>
       
@@ -341,11 +341,11 @@
       
         <tags>
             
-            <tag> Java </tag>
-            
             <tag> 设计模式 </tag>
             
             <tag> 程序设计 </tag>
+            
+            <tag> Java </tag>
             
             <tag> 面向对象 </tag>
             
@@ -369,9 +369,9 @@
           
           <category> Unity3D </category>
           
-          <category> 功能框架 </category>
+          <category> Csharp </category>
           
-          <category> CSharp </category>
+          <category> 功能框架 </category>
           
           <category> GUI </category>
           
@@ -382,11 +382,11 @@
             
             <tag> Unity3D </tag>
             
+            <tag> Csharp </tag>
+            
             <tag> 功能框架 </tag>
             
             <tag> GUI </tag>
-            
-            <tag> CSharp </tag>
             
             <tag> UGUI </tag>
             
@@ -483,15 +483,15 @@
             
             <tag> Unity3D </tag>
             
-            <tag> 游戏开发 </tag>
+            <tag> 协程 </tag>
             
             <tag> 脚本开发 </tag>
+            
+            <tag> 游戏开发 </tag>
             
             <tag> Unity引擎 </tag>
             
             <tag> Unity生命周期 </tag>
-            
-            <tag> 协程 </tag>
             
             <tag> Unity生命周期函数 </tag>
             
@@ -524,11 +524,11 @@
             
             <tag> Unity3D </tag>
             
-            <tag> 游戏开发 </tag>
-            
             <tag> 脚本开发 </tag>
             
-            <tag> CSharp </tag>
+            <tag> 游戏开发 </tag>
+            
+            <tag> Csharp </tag>
             
             <tag> 经典功能实现 </tag>
             
@@ -565,11 +565,11 @@
             
             <tag> Unity3D </tag>
             
-            <tag> 游戏开发 </tag>
-            
             <tag> 脚本开发 </tag>
             
-            <tag> CSharp </tag>
+            <tag> 游戏开发 </tag>
+            
+            <tag> Csharp </tag>
             
             <tag> 经典功能实现 </tag>
             
@@ -595,9 +595,9 @@
           
           <category> Unity3D </category>
           
-          <category> 功能框架 </category>
+          <category> Csharp </category>
           
-          <category> CSharp </category>
+          <category> 功能框架 </category>
           
           <category> GUI </category>
           
@@ -608,11 +608,11 @@
             
             <tag> Unity3D </tag>
             
+            <tag> Csharp </tag>
+            
             <tag> 功能框架 </tag>
             
             <tag> GUI </tag>
-            
-            <tag> CSharp </tag>
             
             <tag> UGUI </tag>
             
@@ -638,9 +638,9 @@
           
           <category> Unity3D </category>
           
-          <category> CSharp </category>
+          <category> Csharp </category>
           
-          <category> CSharp基础 </category>
+          <category> Csharp基础 </category>
           
           <category> Unity3D基础 </category>
           
@@ -651,15 +651,15 @@
             
             <tag> Unity3D </tag>
             
-            <tag> CSharp </tag>
+            <tag> Csharp </tag>
             
             <tag> 程序设计 </tag>
             
-            <tag> CSharp基础 </tag>
+            <tag> Csharp基础 </tag>
             
             <tag> Unity3D基础 </tag>
             
-            <tag> CSharp高级语法 </tag>
+            <tag> Csharp高级语法 </tag>
             
             <tag> 面型对象 </tag>
             
@@ -758,11 +758,11 @@
       
         <tags>
             
-            <tag> Java </tag>
-            
             <tag> 设计模式 </tag>
             
             <tag> 程序设计 </tag>
+            
+            <tag> Java </tag>
             
             <tag> 面向对象 </tag>
             
@@ -799,17 +799,17 @@
             
             <tag> Unity3D </tag>
             
-            <tag> 游戏开发 </tag>
-            
-            <tag> 脚本开发 </tag>
-            
-            <tag> 协程 </tag>
-            
             <tag> CSharp </tag>
             
             <tag> 进程 </tag>
             
             <tag> 线程 </tag>
+            
+            <tag> 协程 </tag>
+            
+            <tag> 脚本开发 </tag>
+            
+            <tag> 游戏开发 </tag>
             
             <tag> 游戏引擎 </tag>
             
@@ -833,7 +833,7 @@
           
           <category> Unity3D </category>
           
-          <category> CSharp脚本基础 </category>
+          <category> Csharp脚本基础 </category>
           
       </categories>
       
@@ -842,11 +842,11 @@
             
             <tag> Unity3D </tag>
             
-            <tag> 游戏开发 </tag>
-            
             <tag> 脚本开发 </tag>
             
-            <tag> CSharp </tag>
+            <tag> 游戏开发 </tag>
+            
+            <tag> Csharp </tag>
             
             <tag> 设计模式 </tag>
             
@@ -985,9 +985,9 @@
           
           <category> Unity3D </category>
           
-          <category> CSharp </category>
+          <category> Csharp </category>
           
-          <category> CSharp基础 </category>
+          <category> Csharp基础 </category>
           
           <category> Unity3D基础 </category>
           
@@ -998,7 +998,7 @@
             
             <tag> 游戏开发 </tag>
             
-            <tag> CSharp </tag>
+            <tag> Csharp </tag>
             
             <tag> 程序设计 </tag>
             
@@ -1033,17 +1033,17 @@
             
             <tag> 游戏开发 </tag>
             
-            <tag> 机器学习 </tag>
-            
             <tag> 设计模式 </tag>
+            
+            <tag> 机器学习 </tag>
             
             <tag> 程序设计 </tag>
             
             <tag> 数据分析 </tag>
             
-            <tag> Python </tag>
-            
             <tag> Web开发 </tag>
+            
+            <tag> Python </tag>
             
             <tag> 服务器 </tag>
             

@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "gitbook-plugin-auto-scroll-table": "^0.0.5",
+    "gitbook-plugin-github": "^3.0.0",
+    "gitbook-plugin-lightbox": "^1.2.0"
+  }
+}

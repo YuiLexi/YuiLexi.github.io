@@ -20,15 +20,63 @@
         "katex",
         "hide-element",
         "back-to-top-button",
-        "chapter-fold",
+        "expandable-chapters-small",
         "code",
         "splitter",
-        "pageview-count"
+        "ga",
+        "sidebar-style",
+        "anchor-navigation-ex",
+        "-sharing", 
+        "sharing-plus",
+        "-lunr", 
+        "-search", 
+        "search-pro",
+        "lightbox",
+        "github",
+        "auto-scroll-table"
     ],
 
     "pluginsConfig": {
         "hide-element": {
             "elements": [".gitbook-link"]
+        },
+        "code": {
+            "copyButtons": false
+        },
+        "sidebar-style": {
+            "title": "《Ruins Land》游戏策划",
+            "author": "YuiLexi"
+        },
+        "anchor-navigation-ex": {
+            "tocLevel1Icon": "fa fa-hand-o-right",
+            "tocLevel2Icon": "fa fa-hand-o-right",
+            "tocLevel3Icon": "fa fa-hand-o-right",
+            "multipleH1": false,
+            "multipleH2": false,
+            "multipleH3": false,
+            "multipleH4": false,
+            "showLevelIcon": false,
+            "showLevel": false
+        },
+        "sharing": {
+            "douban": false,
+            "facebook": false,
+            "google": true,
+            "pocket": false,
+            "qq": false,
+            "qzone": true,
+            "twitter": false,
+            "weibo": true,
+            "all": [
+              "douban", "facebook", "google", "instapaper", "linkedin","twitter", "weibo", 
+              "messenger","qq", "qzone","viber","whatsapp"
+            ]
+        },
+        "ga": {
+            "token": "KEY-YUILEXI"
+        },
+        "github": {
+            "url": "https://github.com/YuiLexi"
         }
     }
   }

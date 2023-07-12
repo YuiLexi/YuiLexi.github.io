@@ -1,4 +1,4 @@
-var initialTime = new Date(2023, 3, 26, 0, 0, 0, 0); //建站时间2023-4-26 00:00:00
+var initialTime = new Date(2023, 4, 26, 0, 0, 0, 0); //建站时间2023-4-26 00:00:00
 function createtime() {
   var now = new Date();
   var time = Math.trunc((now.getTime() - initialTime.getTime()) / 1e3); //计算建站时间到现在的秒数
@@ -12,10 +12,10 @@ function createtime() {
   distance = distance.toLocaleString(); //格式化旅行者1号距离地球的距离
   var work = "";
   if (currentHour >= 8 && currentHour <= 20) {
-    var work = `<img class='boardsign' src='https://sourcebucket.s3.ladydaily.com/badge/F小屋-科研摸鱼中.svg' title='什么时候能够实现财富自由呀~'><br> <div style="font-size:16px;font-weight:bold">本站已经运行了 ${days} 天 ${hours} 小时 ${minutes} 分 ${seconds} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${distance} 千米，约为 ${distanceAU} 个天文单位 🚀</div>`;
+    var work = `<img class='boardsign' src='https://imageshack.yuilexi.cn/starryskybird/F小屋.svg' title='什么时候能够实现财富自由呀~'><br> <div style="font-size:16px;font-weight:bold">本站已经运行了 ${days} 天 ${hours} 小时 ${minutes} 分 ${seconds} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${distance} 千米，约为 ${distanceAU} 个天文单位 🚀</div>`;
     document.getElementById("workboard").innerHTML = work;
   } else {
-    var work = `<img class='boardsign' src='https://sourcebucket.s3.ladydaily.com/badge/F小屋-下班休息啦.svg' title='下班了就该开开心心地玩耍~'><br> <div style="font-size:16px;font-weight:bold">本站已经运行了 ${days} 天 ${hours} 小时 ${minutes} 分 ${seconds} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${distance} 千米，约为 ${distanceAU} 个天文单位 🚀</div>`;
+    var work = `<img class='boardsign' src='https://imageshack.yuilexi.cn/starryskybird/F小屋.svg' title='下班了就该开开心心地玩耍~'><br> <div style="font-size:16px;font-weight:bold">本站已经运行了 ${days} 天 ${hours} 小时 ${minutes} 分 ${seconds} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${distance} 千米，约为 ${distanceAU} 个天文单位 🚀</div>`;
     document.getElementById("workboard").innerHTML = work;
   }
 }

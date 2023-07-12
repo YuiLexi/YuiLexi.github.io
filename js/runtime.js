@@ -1,5 +1,5 @@
 function createtime() {
-  var initialTime = new Date(2023, 4, 26, 0, 0, 0, 0); //建站时间2023-4-26 00:00:00
+  var initialTime = new Date(2023, 3, 26, 0, 0, 0, 0); //建站时间2023-4-26 00:00:00
   var now = new Date();
   var time = Math.trunc((now.getTime() - initialTime.getTime()) / 1e3); //计算建站时间到现在的秒数
   var seconds = time % 60; //计算秒数
